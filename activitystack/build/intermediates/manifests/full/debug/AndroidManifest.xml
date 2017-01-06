@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.android.event"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="24" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme" >
+        <activity android:name="com.android.task.MainActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.android.task.SubActivity_LauncherMode" />
+        <activity android:name="com.android.task.SubActivity_Intent_Flag" />
+        <activity android:name="com.android.task.SubActivity_LauncherMode$SubActivity_Standard" />
+        <activity
+            android:name="com.android.task.SubActivity_LauncherMode$SubActivity_SingleInstance"
+            android:launchMode="singleInstance" />
+        <activity
+            android:name="com.android.task.SubActivity_LauncherMode$SubActivity_SingleTop"
+            android:launchMode="singleTop" />
+        <activity
+            android:name="com.android.task.SubActivity_LauncherMode$SubActivity_SingleTask"
+            android:launchMode="singleTask" />
+        <activity
+            android:name="com.android.task.SubActivity_LauncherMode$SubActivity_NewInProcess"
+            android:process=":new_process" />
+
+        <service
+            android:name="com.android.task.MyService"
+            android:enabled="true"
+            android:exported="true" />
+    </application>
+
+</manifest>

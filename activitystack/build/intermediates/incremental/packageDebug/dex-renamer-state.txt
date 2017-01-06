@@ -1,0 +1,7 @@
+#Fri Jan 06 15:36:01 CST 2017
+base.0=/Users/liwushu/Android/project/androidDemo/activitystack/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f231e7be6fd7ad293c37f1d77efef688509d7a86
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/liwushu/Android/project/androidDemo/activitystack/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5913ca919533a96486e43521b0ba0cc40e213d10/classes.dex
+base.1=/Users/liwushu/Android/project/androidDemo/activitystack/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5913ca919533a96486e43521b0ba0cc40e213d10
+file.0=/Users/liwushu/Android/project/androidDemo/activitystack/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f231e7be6fd7ad293c37f1d77efef688509d7a86/classes.dex
