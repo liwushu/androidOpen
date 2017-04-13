@@ -1,2 +1,2 @@
-include ':app'
+include ':androidEvent', ':joylockscreen', ':opengl'
 include ':activitystack'
