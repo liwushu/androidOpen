@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">opengl</string>
+    <string name="can_not_support_opengl">Your device can not support Opengl</string>
 </resources>
