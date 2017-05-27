@@ -7,13 +7,14 @@ import android.widget.FrameLayout;
 
 import com.android.event.utils.LogUtils;
 
+
 /**
  * Created by liwu.shu on 2016/12/30.
  */
 
 public class DiyViewGroup extends FrameLayout {
 
-    private String tag="";
+    private String tag="DiyViewGroup";
     private boolean isDownInterception;
     private boolean isRequestDisallowInterception;
     private boolean isUpInterception;
@@ -56,7 +57,7 @@ public class DiyViewGroup extends FrameLayout {
         int action = ev.getAction();
         switch (action){
             case MotionEvent.ACTION_DOWN:
-                LogUtils.d(tag,"onInterceptTouchEvent_ACTION_DOWN");
+                //LogUtils.logd(tag,"onInterceptTouchEvent_ACTION_DOWN");
                 if(isDownInterception) {
                     return true;
                 }
@@ -65,13 +66,13 @@ public class DiyViewGroup extends FrameLayout {
                 }
                 break;
             case MotionEvent.ACTION_MOVE:
-                LogUtils.d(tag,"onInterceptTouchEvent_ACTION_MOVE："+isMoveinterception);
+                //LogUtils.logd(tag,"onInterceptTouchEvent_ACTION_MOVE："+isMoveinterception);
                 if(isMoveinterception){
                     return true;
                 }
                 break;
             case MotionEvent.ACTION_UP:
-                LogUtils.d(tag,"onInterceptTouchEvent_ACTION_UP");
+                //LogUtils.logd(tag,"onInterceptTouchEvent_ACTION_UP");
                 if(isUpInterception)
                     return true;
         }
@@ -83,13 +84,13 @@ public class DiyViewGroup extends FrameLayout {
         int action = ev.getAction();
         switch (action){
             case MotionEvent.ACTION_DOWN:
-                LogUtils.d(tag,"onTouchEvent_ACTION_DOWN");
+                //LogUtils.logd(tag,"onTouchEvent_ACTION_DOWN");
                 break;
             case MotionEvent.ACTION_MOVE:
-                LogUtils.d(tag,"onTouchEvent_ACTION_MOVE");
+                //LogUtils.logd(tag,"onTouchEvent_ACTION_MOVE");
                 break;
             case MotionEvent.ACTION_UP:
-                LogUtils.d(tag,"onTouchEvent_ACTION_UP");
+               // LogUtils.logd(tag,"onTouchEvent_ACTION_UP");
                 break;
         }
         return super.onTouchEvent(ev);

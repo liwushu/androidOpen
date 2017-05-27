@@ -4,6 +4,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.MotionEvent;
 import android.view.View;
+import android.view.WindowManager;
 
 
 import com.android.event.utils.LogUtils;
@@ -29,11 +30,11 @@ public class TestAndroidEventActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test_android_event);
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_WATCH_OUTSIDE_TOUCH);
         ButterKnife.bind(this);
         redViewGroup.setTag("RedView");
         greenViewGroup.setTag("greenView");
         whiteView.setTag("WhiteView");
-
         greenViewGroup.setOnTouchListener(new View.OnTouchListener() {
             @Override
             public boolean onTouch(View v, MotionEvent event) {
@@ -123,7 +124,7 @@ public class TestAndroidEventActivity extends AppCompatActivity {
     }
 
     private void showClick(String view){
-        LogUtils.d(view,"click");
+        LogUtils.logd(view,"click");
     }
 
     private void requestDisallowInterception(DiyViewGroup view, boolean isDisallow){

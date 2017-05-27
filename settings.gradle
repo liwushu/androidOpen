@@ -1,2 +1,4 @@
-include ':androidEvent', ':joylockscreen', ':opengl'
-include ':activitystack'
+include ':androidEvent', ':lib', ':testrecycler'
+//include ':joylockscreen'
+//include ':activitystack'
+include ':opengl', ':test', ':camera'

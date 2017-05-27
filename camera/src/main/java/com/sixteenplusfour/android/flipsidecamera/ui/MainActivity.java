@@ -30,7 +30,6 @@ import com.flurgle.camerakit.CameraListener;
 import com.flurgle.camerakit.CameraView;
 import com.getkeepsafe.taptargetview.TapTarget;
 import com.getkeepsafe.taptargetview.TapTargetSequence;
-import com.google.firebase.analytics.FirebaseAnalytics;
 import com.imangazaliev.circlemenu.CircleMenu;
 import com.imangazaliev.circlemenu.CircleMenuButton;
 import com.karumi.dexter.Dexter;
@@ -485,5 +484,6 @@ public class MainActivity extends AppCompatActivity {
         Uri uri = Uri.fromFile(new File(pathToCombinedImage));
         shareIntent.putExtra(Intent.EXTRA_STREAM, uri);
         startActivity(Intent.createChooser(shareIntent, "Share via"));
+
     }
 }

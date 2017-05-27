@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="header_scrolling_behavior">com.flying.test.widget.HeaderScrollingBehavior</string>
+    <string name="header_float_behavior">com.flying.test.widget.HeaderFloatBehavior</string>
+    <string name="action_settings">Settings</string>
+</resources>

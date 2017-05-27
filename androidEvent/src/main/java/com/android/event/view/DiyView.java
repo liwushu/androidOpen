@@ -12,7 +12,7 @@ import com.android.event.utils.LogUtils;
  */
 
 public class DiyView extends TextView {
-    private String tag="";
+    private String tag="flying";
 
     public DiyView(Context context) {
         this(context,null);
@@ -31,16 +31,19 @@ public class DiyView extends TextView {
         int action = ev.getAction();
         switch (action){
             case MotionEvent.ACTION_DOWN:
-                LogUtils.d(tag,"onTouchEvent_ACTION_DOWN");
+                LogUtils.logd(tag,"onTouchEvent_ACTION_DOWN");
                 break;
             case MotionEvent.ACTION_MOVE:
-                LogUtils.d(tag,"onTouchEvent_ACTION_MOVE");
+                LogUtils.logd(tag,"onTouchEvent_ACTION_MOVE");
                 break;
             case MotionEvent.ACTION_UP:
-                LogUtils.d(tag,"onTouchEvent_ACTION_UP");
+                LogUtils.logd(tag,"onTouchEvent_ACTION_UP");
                 break;
             case MotionEvent.ACTION_CANCEL:
-                LogUtils.d(tag,"onTouchEvent_ACTION_CANCEL");
+                LogUtils.logd(tag,"onTouchEvent_ACTION_CANCEL");
+                break;
+            case MotionEvent.ACTION_OUTSIDE:
+                LogUtils.logd(tag,"onTouchEvent_ACTION_OUTSIDE");
                 break;
         }
         return super.onTouchEvent(ev);

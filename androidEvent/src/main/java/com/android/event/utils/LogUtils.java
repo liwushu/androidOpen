@@ -8,7 +8,8 @@ import android.util.Log;
 
 public class LogUtils {
     private final static  String TAG = "flying";
-    public static void d(String tag,String msg){
+
+    public static void logd(String tag,String msg){
         Log.d(TAG,tag+": "+msg);
     }
 }

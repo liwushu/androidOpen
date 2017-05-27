@@ -6,6 +6,9 @@ import android.content.pm.ConfigurationInfo;
 import android.opengl.GLSurfaceView;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Toast;
+
+import com.slw.opengl.pojo.MyOpenglRenderer;
 
 import com.slw.opengl.pojo.MyFirstRenderer;
 import com.slw.opengl.utils.ToastUtils;
@@ -13,6 +16,7 @@ import com.slw.opengl.utils.ToastUtils;
 public class MainActivity extends AppCompatActivity {
 
     GLSurfaceView glSurfaceView;
+    Toast mToast;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +33,9 @@ public class MainActivity extends AppCompatActivity {
     private void initOpenGl(){
         glSurfaceView = new GLSurfaceView(this);
         glSurfaceView.setRenderer(new MyFirstRenderer());
+
+        setContentView(glSurfaceView);
+
     }
 
 
@@ -36,7 +43,9 @@ public class MainActivity extends AppCompatActivity {
     private boolean checkGLSurfaceViewSupport(){
         ActivityManager activityManager = (ActivityManager)getSystemService(Context.ACTIVITY_SERVICE);
         ConfigurationInfo configurationInfo = activityManager.getDeviceConfigurationInfo();
-        if(configurationInfo.reqGlEsVersion>= 0x20000){
+
+        if(0x20000 <= configurationInfo.reqGlEsVersion){
+
             return true;
         }
         return false;
@@ -50,10 +59,22 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public void onPause(){
+    public void onPause() {
         super.onPause();
-        if(glSurfaceView!=null)
+        if (glSurfaceView != null)
             glSurfaceView.onPause();
+
+    }
+
+    private void showMessage(int resId){
+        showMessage(getString(resId));
+    }
+
+    private void showMessage(String msg){
+        if(mToast != null)
+            mToast.cancel();
+        mToast = Toast.makeText(this,msg,Toast.LENGTH_SHORT);
+        mToast.show();
     }
 
 }
