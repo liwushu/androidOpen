@@ -1,8 +1,8 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 24
-    buildToolsVersion "24.0.3"
+    compileSdkVersion Integer.parseInt(project.COMPILE_SDK_VERSION)
+    buildToolsVersion project.BUILD_TOOLS_VERSION
 
     defaultConfig {
         applicationId "com.flying.test"
@@ -58,5 +58,5 @@ dependencies {
     compile 'com.squareup.okio:okio:1.5.0'
     compile 'org.greenrobot:greendao:3.2.2'
     compile "com.android.support:recyclerview-v7:${project.ANDROID_SUPPORT_VERSION}"
-    compile 'com.android.support:design:25.2.0'
+    compile "com.android.support:design:${project.ANDROID_SUPPORT_VERSION}"
 }
