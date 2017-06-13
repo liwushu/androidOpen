@@ -10,6 +10,7 @@ import android.view.MotionEvent;
 import com.flying.test.R;
 import com.flying.test.adapter.ActAdapter;
 import com.flying.test.db.DbTestActivity;
+import com.flying.test.fragment.TestFragmentActivity;
 
 import java.util.Arrays;
 
@@ -21,6 +22,8 @@ public class Main2Activity extends Activity {
                        TestMeasureActivity.class,
                        TestListActivity.class,
                         ScrollingActivity.class,
+                        TestFragmentActivity.class,
+                        TestRunningActivity.class,
                         };
     RecyclerView recyclerView;
     ActAdapter actAdapter;

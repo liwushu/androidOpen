@@ -4,4 +4,7 @@
     <string name="header_scrolling_behavior">com.flying.test.widget.HeaderScrollingBehavior</string>
     <string name="header_float_behavior">com.flying.test.widget.HeaderFloatBehavior</string>
     <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

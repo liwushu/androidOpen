@@ -14,8 +14,10 @@ android {
 
     }
 
-    ndk{
-        moduleName "mytest"
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
     }
 
     buildTypes {

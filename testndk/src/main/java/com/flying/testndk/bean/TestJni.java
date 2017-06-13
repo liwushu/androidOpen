@@ -6,7 +6,13 @@ package com.flying.testndk.bean;
 
 public class TestJni {
 
-    public native String getString();
+    public static native String getString();
+    public static native void invokeClick();
+
+    public void invokeTest(){
+        //String str = TestJni.getString();
+        System.out.println("call from jni ");
+    }
 
     static {
         System.loadLibrary("mytest");

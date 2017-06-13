@@ -40,11 +40,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".activity.TestMeasureActivity" />
-        <activity android:name=".activity.TestListActivity"></activity>
-
-        <activity android:name=".activity.ScrollingActivity"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+        <activity android:name=".activity.TestListActivity" />
+        <activity
+            android:name=".activity.ScrollingActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".fragment.TestFragmentActivity" />
+        <activity android:name=".activity.TestRunningActivity"></activity>
     </application>
 
 </manifest>
