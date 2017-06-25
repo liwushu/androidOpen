@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Достапна е нова верзија на %1$2s. Инсталирај ја сега？</string>
+    <string name="dialog_install">ИНСТАЛИРАЈ</string>
+    <string name="dialog_later">ПОДОЦНА</string>
+    <string name="dialog_title">Нова верзија</string>
+
+    <string name="notification_download_fail">Преземањето не успеа. Допрете за да се обидете повторно.</string>
+    <string name="notification_downloading">Се презема</string>
+    <string name="notification_finish">Преземањето е завршено.</string>
+</resources>

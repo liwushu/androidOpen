@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Hai unha nova versión de %1$2s dispoñible. Quere instalala agora？</string>
+    <string name="dialog_install">INSTALAR</string>
+    <string name="dialog_later">DESPOIS</string>
+    <string name="dialog_title">Nova versión</string>
+
+    <string name="notification_download_fail">Erro de descarga, toque para tentalo de novo.</string>
+    <string name="notification_downloading">Descargando</string>
+    <string name="notification_finish">Descarga completada</string>
+
+    <string name="lock_screen_update">Actualización de Bloquear pantalla</string>
+    <string name="new_version">Hai unha nova versión de Bloquear pantalla dispoñible.</string>
+    <string name="tip_cancel">CANCELAR</string>
+    <string name="tip_update">ACTUALIZAR</string>
+    <string name="update_restart">Actualícea agora e o teléfono reiniciarase.</string>
+</resources>

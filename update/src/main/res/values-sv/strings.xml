@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">En ny version av %1$2s finns tillgänglig. Installera den nu？</string>
+    <string name="dialog_install">INSTALLERA</string>
+    <string name="dialog_later">SENARE</string>
+    <string name="dialog_title">Ny version</string>
+
+    <string name="notification_download_fail">Nedladdning misslyckades. Berör för att försöka igen.</string>
+    <string name="notification_downloading">Laddar ned</string>
+    <string name="notification_finish">Nedladdning avslutad.</string>
+    
+    	<string name="lock_screen_update">Lock Screen-uppdatering</string>
+	<string name="new_version">En ny version av Lock Screen finns tillgänglig.</string>
+	<string name="tip_cancel">AVBRYT</string>
+	<string name="tip_update">UPPDATERA</string>
+	<string name="update_restart">Uppdatera nu och telefonen startar om.</string>
+</resources>

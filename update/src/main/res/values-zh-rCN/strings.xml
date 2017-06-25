@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">%1$2s 有新版本可用。是否立即安装？</string>
+    <string name="dialog_install">安装</string>
+    <string name="dialog_later">取消</string>
+    <string name="dialog_title">新版本</string>
+
+    <string name="notification_download_fail">下载失败，点击重试。</string>
+    <string name="notification_downloading">下载中</string>
+    <string name="notification_finish">下载完成</string>
+</resources>

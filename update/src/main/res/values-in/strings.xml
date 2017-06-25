@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Versi baru %1$2s tersedia. Instal sekarang？</string>
+    <string name="dialog_install">INSTAL</string>
+    <string name="dialog_later">NANTI</string>
+    <string name="dialog_title">Versi baru</string>
+
+    <string name="notification_download_fail">Gagal mengunduh. Sentuh untuk mencoba lagi.</string>
+    <string name="notification_downloading">Mengunduh</string>
+    <string name="notification_finish">Selesai mengunduh.</string>
+</resources>

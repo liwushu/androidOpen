@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">È disponibile una nuova versione di %1$2s. Installarla adesso？</string>
+    <string name="dialog_install">INSTALLA</string>
+    <string name="dialog_later">PIÙ TARDI</string>
+    <string name="dialog_title">Nuova versione</string>
+
+    <string name="notification_download_fail">Download non riuscito. Toccare per riprovare.</string>
+    <string name="notification_downloading">Download in corso</string>
+    <string name="notification_finish">Download completato.</string>
+    
+    	<string name="lock_screen_update">Aggiornamento Schermata di blocco</string>
+	<string name="new_version">È disponibile una nuova versione della Schermata di blocco.</string>
+	<string name="tip_cancel">ANNULLA</string>
+	<string name="tip_update">AGGIORNA</string>
+	<string name="update_restart">Aggiornare adesso e il telefono verrà riavviato.</string>
+
+</resources>

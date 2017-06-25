@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Налична е нова версия на %1$2s. Инсталиране сега？</string>
+    <string name="dialog_install">ИНСТАЛИРАНЕ</string>
+    <string name="dialog_later">ПО-КЪСНО</string>
+    <string name="dialog_title">Нова версия</string>
+
+    <string name="notification_download_fail">Изтеглянето неуспешно. Моля, докоснете, за да опитате отново.</string>
+    <string name="notification_downloading">Изтегля се</string>
+    <string name="notification_finish">Изтеглянето завършено.</string>
+
+    <string name="lock_screen_update">Актуализация за „Заключване на екрана“</string>
+    <string name="new_version">Има нова версия за „Заключване на екрана“.</string>
+    <string name="tip_cancel">ОТМЯНА</string>
+    <string name="tip_update">АКТУАЛИЗАЦИЯ</string>
+    <string name="update_restart">Актуализирайте сега и телефонът ще се рестартира.</string>
+</resources>

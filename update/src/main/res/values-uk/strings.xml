@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Доступна нова версія %1$2s. Встановити її зараз？</string>
+    <string name="dialog_install">ВСТАНОВИТИ</string>
+    <string name="dialog_later">ПІЗНІШЕ</string>
+    <string name="dialog_title">Нова версія</string>
+
+    <string name="notification_download_fail">Не вдалося завантажити. Торкніться, щоб спробувати ще раз.</string>
+    <string name="notification_downloading">Триває завантаження…</string>
+    <string name="notification_finish">Завантаження завершене.</string>
+    
+    	<string name="lock_screen_update">Оновлення екрана блокування</string>
+	<string name="new_version">Доступна нова версія екрана блокування.</string>
+	<string name="tip_cancel">СКАСУВАТИ</string>
+	<string name="tip_update">ОНОВИТИ</string>
+	<string name="update_restart">Оновіть зараз, і телефон буде перезавантажено.</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Disponohet një version i ri i %1$2s. Dëshiron ta instalosh atë tani？</string>
+    <string name="dialog_install">INSTALO</string>
+    <string name="dialog_later">MË VONË</string>
+    <string name="dialog_title">Versioni i ri</string>
+
+    <string name="notification_download_fail">Shkarkimi dështoi. Preke për ta provuar sërish.</string>
+    <string name="notification_downloading">Po shkarkon</string>
+    <string name="notification_finish">Shkarkimi përfundoi.</string>
+    
+    	<string name="lock_screen_update">Përditësimi i Ekranit të kyçjes</string>
+	<string name="new_version">Disponohet një version i ri i Ekranit të kyçjes.</string>
+	<string name="tip_cancel">ANULO</string>
+	<string name="tip_update">PËRDITËSO</string>
+	<string name="update_restart">Përditësoje tani dhe telefoni do të riniset.</string>
+
+</resources>

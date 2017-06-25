@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Egy új %1$2s verzió érhető el. Telepíti most?</string>
+    <string name="dialog_install">TELEPÍTÉS</string>
+    <string name="dialog_later">KÉSŐBB</string>
+    <string name="dialog_title">Új verzió</string>
+
+    <string name="notification_download_fail">Preuzimanje nije uspjelo. Molimo, dodirnite za ponovni pokušaj.</string>
+    <string name="notification_downloading">Preuzimanje</string>
+    <string name="notification_finish">Preuzimanje dovršeno.</string>
+    
+  	<string name="lock_screen_update">Ažuriranje zaključanog zaslona</string>
+	<string name="new_version">Nova inačica zaključanog zaslona je dostupna.</string>
+	<string name="tip_cancel">ODUSTANI</string>
+	<string name="tip_update">AŽURIRAJ</string>
+	<string name="update_restart">Ažurirajte sada i telefon će se ponovno pokrenuti.</string>
+  
+    
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Hay una nueva versión de %1$2s disponible. ¿Desea instalarla ahora？</string>
+    <string name="dialog_install">INSTALAR</string>
+    <string name="dialog_later">MÁS TARDE</string>
+    <string name="dialog_title">Nueva versión</string>
+
+    <string name="notification_download_fail">Error en la descarga. Toque para reintentar.</string>
+    <string name="notification_downloading">Descargando</string>
+    <string name="notification_finish">Descarga completada.</string>
+</resources>

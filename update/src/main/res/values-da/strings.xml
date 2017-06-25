@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">En ny version af %1$2s er tilgængelig. Vil du installere den nu？</string>
+    <string name="dialog_install">INSTALLER</string>
+    <string name="dialog_later">SENERE</string>
+    <string name="dialog_title">Ny version</string>
+
+    <string name="notification_download_fail">Fejl ved download. Tryk venligst her for at forsøge igen.</string>
+    <string name="notification_downloading">Downloader</string>
+    <string name="notification_finish">Download fuldført.</string>
+
+    <string name="lock_screen_update">Opdatering til Skærmlås</string>
+    <string name="new_version">En ny version af Skærmlås er tilgængelig.</string>
+    <string name="tip_cancel">ANNULLÉR</string>
+    <string name="tip_update">OPDATÉR</string>
+    <string name="update_restart">Opdatér nu og din telefon vil genstarte.</string>
+</resources>

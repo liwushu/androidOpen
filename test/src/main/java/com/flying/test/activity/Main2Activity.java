@@ -24,6 +24,7 @@ public class Main2Activity extends Activity {
                         ScrollingActivity.class,
                         TestFragmentActivity.class,
                         TestRunningActivity.class,
+                        DownloadActivity.class,
                         };
     RecyclerView recyclerView;
     ActAdapter actAdapter;

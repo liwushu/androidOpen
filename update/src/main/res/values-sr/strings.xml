@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Nova verzija %1$2s je dostupna. Sada je instalirati？</string>
+    <string name="dialog_install">INSTALIRAJ</string>
+    <string name="dialog_later">KASNIJE</string>
+    <string name="dialog_title">Nova verzija</string>
+
+    <string name="notification_download_fail">Preuzimanje nije uspelo. Dodirnite da biste pokušali ponovo.</string>
+    <string name="notification_downloading">Preuzimanje u toku.</string>
+    <string name="notification_finish">Preuzimanje je završeno.</string>
+    
+    	<string name="lock_screen_update">Ažuriranje zaključavanja ekrana</string>
+	<string name="new_version">Nova verzija zaključavanje ekrana je dostupna.</string>
+	<string name="tip_cancel">OTKAŽI</string>
+	<string name="tip_update">AŽURIRAJ</string>
+	<string name="update_restart">Ažurirajte sada i telefon će se ponovo pokrenuti.</string>
+
+</resources>

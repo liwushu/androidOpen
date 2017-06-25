@@ -45,7 +45,8 @@
             android:name=".activity.ScrollingActivity"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".fragment.TestFragmentActivity" />
-        <activity android:name=".activity.TestRunningActivity"></activity>
+        <activity android:name=".activity.TestRunningActivity" />
+        <activity android:name=".activity.DownloadActivity"></activity>
     </application>
 
 </manifest>

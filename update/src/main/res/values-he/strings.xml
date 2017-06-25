@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">גרסה חדשה של %1$2s זמינה. להתקין אותה עכשיו?</string>
+    <string name="dialog_install">התקן</string>
+    <string name="dialog_later">מאוחר יותר</string>
+    <string name="dialog_title">גרסה חדשה</string>
+
+    <string name="notification_download_fail">הורדה נכשלה. גע כדי לנסות שוב.</string>
+    <string name="notification_downloading">‬מוריד</string>
+    <string name="notification_finish">הורדה הושלמה.</string>
+
+    <string name="lock_screen_update">עידכון מסך נעילה</string>
+    <string name="new_version">גרסה חדשה של מסך נעילה זמינה.</string>
+    <string name="tip_cancel">ביטול</string>
+    <string name="tip_update">עדכן</string>
+    <string name="update_restart">עדכן כעת והטלפון יופעל מחדש.</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">%1$2s için yeni bir sürüm mevcut. Şimdi yüklensin mi?</string>
+    <string name="dialog_install">YÜKLE</string>
+    <string name="dialog_later">DAHA SONRA</string>
+    <string name="dialog_title">Yeni sürüm</string>
+
+    <string name="notification_download_fail">İndirme başarısız. Tekrar denemek için dokunun.</string>
+    <string name="notification_downloading">İndiriliyor</string>
+    <string name="notification_finish">İndirme tamamlandı.</string>
+    
+    	<string name="lock_screen_update">Kilit Ekranı güncellemesi</string>
+	<string name="new_version">Kilit Ekranı için yeni bir sürüm mevcut.</string>
+	<string name="tip_cancel">İPTAL</string>
+	<string name="tip_update">GÜNCELLE</string>
+	<string name="update_restart">Şimdi güncelleyin. Ardından, telefon yeniden başlatılır.</string>
+
+</resources>

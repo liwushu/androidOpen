@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">A new version of %s is available. Install it now？</string>
+    <string name="dialog_install">INSTALL</string>
+    <string name="dialog_later">LATER</string>
+    <string name="dialog_title">New version</string>
+
+    <string name="notification_finish">Download completed</string>
+    <string name="notification_downloading">Downloading</string>
+    <string name="notification_download_fail">Download failed. Please touch to retry.</string>
+
+    <string name="lock_screen_update">Lock screen update</string>
+    <string name="new_version">A new version of the lock screen is available.</string>
+    <string name="tip_cancel">CANCEL</string>
+    <string name="tip_update">UPDATE</string>
+    <string name="update_restart">Update now and the phone will restart.</string>
+</resources>

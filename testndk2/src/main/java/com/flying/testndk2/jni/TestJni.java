@@ -6,10 +6,10 @@ package com.flying.testndk2.jni;
 
 public class TestJni {
 
-    public static native String getJniString();
-    public static native Object testClassJava();
+    public native String getJniString();
+    public native Object testClassJava();
 
     static{
-        System.loadLibrary("mytest");
+        System.loadLibrary("myTest");
     }
 }

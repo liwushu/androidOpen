@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Este disponibilă o versiune nouă a aplicației %1$2s. Instalați acum?</string>
+    <string name="dialog_install">INSTALARE</string>
+    <string name="dialog_later">MAI TÂRZIU</string>
+    <string name="dialog_title">Versiune nouă</string>
+
+    <string name="notification_download_fail">Descărcare nereușită. Atingeți pentru a reîncerca.</string>
+    <string name="notification_downloading">Se descarcă…</string>
+    <string name="notification_finish">Descărcare finalizată.</string>
+    
+    	<string name="lock_screen_update">Actualizare a aplicației de blocare a ecranului</string>
+	<string name="new_version">Este disponibilă o versiune nouă a aplicației de blocare a ecranului</string>
+	<string name="tip_cancel">ANULARE</string>
+	<string name="tip_update">ACTUALIZARE</string>
+	<string name="update_restart">Actualizați acum și telefonul va reporni.</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">En ny versjon av %1$2s er tilgjengelig. Installere den nå？</string>
+    <string name="dialog_install">INSTALLER</string>
+    <string name="dialog_later">SENERE</string>
+    <string name="dialog_title">Ny versjon</string>
+
+    <string name="notification_download_fail">Nedlasting mislyktes. Trykk for å prøve igjen.</string>
+    <string name="notification_downloading">Laster ned</string>
+    <string name="notification_finish">Nedlasting fullført.</string>
+    
+    	<string name="lock_screen_update">Oppdatering av låseskjerm</string>
+	<string name="new_version">En ny versjon av låseskjerm er tilgjengelig.</string>
+	<string name="tip_cancel">AVBRYT</string>
+	<string name="tip_update">OPPDATER</string>
+	<string name="update_restart">Oppdater nå og telefonen vil starte på nytt.</string>
+
+</resources>

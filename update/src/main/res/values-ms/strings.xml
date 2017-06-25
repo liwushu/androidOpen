@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Versi baharu bagi %1$2s tersedia. Pasang sekarang？</string>
+    <string name="dialog_install">PASANG</string>
+    <string name="dialog_later">KEMUDIAN</string>
+    <string name="dialog_title">Versi baharu</string>
+
+    <string name="notification_download_fail">Muat turun gagal. Sila sentuh untuk cuba semula.</string>
+    <string name="notification_downloading">Memuat turun</string>
+    <string name="notification_finish">Muat turun selesai.</string>
+    
+    	<string name="lock_screen_update">Kemas kini Skrin Kunci</string>
+	<string name="new_version">Versi baharu bagi Skrin Kunci tersedia.</string>
+	<string name="tip_cancel">BATAL</string>
+	<string name="tip_update">KEMAS KINI</string>
+	<string name="update_restart">Kemas kini sekarang dan telefon akan mula semula.</string>
+
+</resources>

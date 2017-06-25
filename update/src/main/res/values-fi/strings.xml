@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Uusi versio sovelluksesta %1$2s on saatavilla. Asenna se nyt？</string>
+    <string name="dialog_install">ASENNA</string>
+    <string name="dialog_later">MYÖHEMMIN</string>
+    <string name="dialog_title">Uusi versio</string>
+
+    <string name="notification_download_fail">Lataus epäonnistui. Kosketa yrittääksesi uudelleen.</string>
+    <string name="notification_downloading">Ladataan</string>
+    <string name="notification_finish">Lataus valmis.</string>
+
+    <string name="lock_screen_update">Lock Screen -päivitys</string>
+    <string name="new_version">Uusi Lock Screen -versio on saatavissa.</string>
+    <string name="tip_cancel">PERUUTA</string>
+    <string name="tip_update">PÄIVITÄ</string>
+    <string name="update_restart">Päivitä nyt, ja puhelin käynnistyy uudelleen.</string>
+</resources>

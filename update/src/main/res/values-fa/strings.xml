@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">یک نسخه جدید از %1$2s موجود است. اکنون آن را نصب می کنید؟</string>
+    <string name="dialog_install">نصب</string>
+    <string name="dialog_later">در فرصتی دیگر</string>
+    <string name="dialog_title">نسخه جدید</string>
+
+    <string name="notification_download_fail">دانلود انجام نشد. لطفاً برای امتحان مجدد لمس کنید.</string>
+    <string name="notification_downloading">در حال دانلود</string>
+    <string name="notification_finish">دانلود کامل است.</string>
+
+    <string name="lock_screen_update">به روزرسانی صفحه قفل</string>
+    <string name="new_version">نسخه جدید صفحه قفل موجود است.</string>
+    <string name="tip_cancel">لغو</string>
+    <string name="tip_update">به روزرسانی</string>
+    <string name="update_restart">اکنون به روزرسانی کنید و تلفن دوباره راه اندازی می شود.</string>
+</resources>

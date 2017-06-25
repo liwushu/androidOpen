@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">K dispozici je nová verze aplikace %1$2s. Chcete ji nyní nainstalovat？</string>
+    <string name="dialog_install">NAINSTALOVAT</string>
+    <string name="dialog_later">POZDĚJI</string>
+    <string name="dialog_title">Nová verze</string>
+
+    <string name="notification_download_fail">Stažení se nezdařilo. Klepněte a zkuste to znovu.</string>
+    <string name="notification_downloading">Stahování</string>
+    <string name="notification_finish">Stažení bylo dokončeno.</string>
+
+    <string name="lock_screen_update">Aktualizace zamčené obrazovky</string>
+    <string name="new_version">K dispozici je nová verze zamčené obrazovky.</string>
+    <string name="tip_cancel">ZRUŠIT</string>
+    <string name="tip_update">AKTUALIZOVAT</string>
+    <string name="update_restart">Telefon se po aktualizaci restartuje.</string>
+</resources>

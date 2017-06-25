@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Eine neue Version von %1$2s ist verfügbar. Jetzt installieren？</string>
+    <string name="dialog_install">INSTALLIEREN</string>
+    <string name="dialog_later">SPÄTER</string>
+    <string name="dialog_title">Neue Version</string>
+
+    <string name="notification_download_fail">Download fehlgeschlagen. Versuchen Sie es erneut.</string>
+    <string name="notification_downloading">Daten werden heruntergeladen…</string>
+    <string name="notification_finish">Download abgeschlossen.</string>
+
+    <string name="lock_screen_update">Aktualisierung des Sperrbildschirms</string>
+    <string name="new_version">Eine neue Version des Sperrbildschirms ist verfügbar.</string>
+    <string name="tip_cancel">ABBRECHEN</string>
+    <string name="tip_update">AKTUALISIEREN</string>
+    <string name="update_restart">Führen Sie jetzt die Aktualisierung aus und das Telefon wird neu gestartet.</string>
+
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">%1$2s کا ایک نیا ورژن دستیاب ہے۔ اسے ابھی انسٹال کریں؟</string>
+    <string name="dialog_install">انسٹال</string>
+    <string name="dialog_later">بعد میں</string>
+    <string name="dialog_title">نیا ورژن</string>
+
+    <string name="notification_downloading">ڈاؤن لوڈ ہورہا ہے</string>
+    <string name="notification_finish">ڈاؤن لوڈ مکمل ہوگیا۔</string>
+    <string name="notification_download_fail">ڈاؤن لوڈ ناکام۔ دوبارہ کوشش کرنے کیلئے براہ کرم ٹچ کریں۔</string>
+    
+    	<string name="lock_screen_update">لاک اسکرین اپ ڈیٹ</string>
+	<string name="new_version">لاک اسکرین کا ایک نیا ورژن دستیاب ہے۔</string>
+	<string name="tip_cancel">منسوخ کریں</string>
+	<string name="tip_update">اپ ڈیٹ</string>
+	<string name="update_restart">ابھی اپ ڈیٹ کریں اور فون بند ہوکر دوبارہ چالو ہوگا۔ </string>
+</resources>

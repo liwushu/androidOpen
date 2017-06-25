@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Dostępna jest nowa wersja aplikacji %1$2s. Zainstalować teraz？</string>
+    <string name="dialog_install">INSTALUJ</string>
+    <string name="dialog_later">PÓŹNIEJ</string>
+    <string name="dialog_title">Nowa wersja</string>
+
+    <string name="notification_download_fail">Pobieranie nieudane. Dotknij, aby ponowić.</string>
+    <string name="notification_downloading">Pobieranie</string>
+    <string name="notification_finish">Pobieranie zakończone</string>
+    
+    	<string name="lock_screen_update">Aktualizacja ekranu blokady</string>
+	<string name="new_version">Dostępna jest nowa wersja ekranu blokady.</string>
+	<string name="tip_cancel">ANULUJ</string>
+	<string name="tip_update">AKTUALIZUJ</string>
+	<string name="update_restart">Zaktualizuj teraz; nastąpi ponowne uruchomienie telefonu.</string>
+
+</resources>

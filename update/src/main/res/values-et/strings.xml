@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Saadaval on %1$2s uus versioon. Kas paigaldada see kohe？</string>
+    <string name="dialog_install">PAIGALDA</string>
+    <string name="dialog_later">HILJEM</string>
+    <string name="dialog_title">Uus versioon</string>
+
+    <string name="notification_download_fail">Allalaadimine ebaõnnestus. Palun puuduta, et uuesti proovida.</string>
+    <string name="notification_downloading">Allalaadimine</string>
+    <string name="notification_finish">Allalaadimine lõpetatud.</string>
+
+    <string name="lock_screen_update">Lukustuskuva värskendus</string>
+    <string name="new_version">Saadaval on lukustuskuva uus versioon.</string>
+    <string name="tip_cancel">TÜHISTA</string>
+    <string name="tip_update">VÄRSKENDA</string>
+    <string name="update_restart">Värskenda kohe ja telefon taaskäivitub.</string>
+</resources>

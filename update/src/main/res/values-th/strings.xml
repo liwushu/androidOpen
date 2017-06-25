@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">เวอร์ชั่นใหม่ของ %1$2s พร้อมให้บริการแล้ว ติดตั้งในตอนนี้หรือไม่</string>
+    <string name="dialog_install">ติดตั้ง</string>
+    <string name="dialog_later">ภายหลัง</string>
+    <string name="dialog_title">เวอร์ชั่นใหม่</string>
+
+    <string name="notification_download_fail">ดาวโหลดล้มเหลว โปรดแตะเพื่อลองอีกครั้ง</string>
+    <string name="notification_downloading">กำลังดาวโหลด</string>
+    <string name="notification_finish">ดาวโหลดเสร็จสมบูรณ์</string>
+    
+    	<string name="lock_screen_update">การอัพเดตหน้าจอการล็อก</string>
+	<string name="new_version">เวอร์ชั่นใหม่ของหน้าจอการล็อกพร้อมให้บริการแล้ว</string>
+	<string name="tip_cancel">ยกเลิก</string>
+	<string name="tip_update">อัพเดต</string>
+	<string name="update_restart">อัพเดตในตอนนี้ แล้วโทรศัพท์จะเริ่มการทำงานใหม่</string>
+</resources>

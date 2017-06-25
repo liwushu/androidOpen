@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Pieejama %1$2s jauna versija. Vai instalēt to tagad？</string>
+    <string name="dialog_install">INSTALĒT</string>
+    <string name="dialog_later">VĒLĀK</string>
+    <string name="dialog_title">Jauna versija</string>
+
+    <string name="notification_download_fail">Lejupielāde neizdevās. Lūdzu, pieskarieties, lai mēģinātu vēlreiz.</string>
+    <string name="notification_downloading">Notiek lejupielāde</string>
+    <string name="notification_finish">Lejupielāde pabeigta.</string>
+    
+    	<string name="lock_screen_update">Ekrāna bloķēšanas atjauninājums</string>
+	<string name="new_version">Ir pieejama jauna ekrāna bloķēšanas versija.</string>
+	<string name="tip_cancel">ATCELT</string>
+	<string name="tip_update">ATJAUNINĀT</string>
+	<string name="update_restart">Atjaunināt tagad, restartējot tālruni.</string>
+
+</resources>

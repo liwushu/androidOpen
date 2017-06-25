@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">%1$2s aplikazioaren bertsio berri bat dago erabilgarri. Instalatu nahi duzu？</string>
+    <string name="dialog_install">INSTALATU</string>
+    <string name="dialog_later">GEROAGO</string>
+    <string name="dialog_title">Bertsio berria</string>
+
+    <string name="notification_download_fail">Ezin izan da deskargatu. Ukitu hau berriro saiatzeko.</string>
+    <string name="notification_downloading">Deskargatzen</string>
+    <string name="notification_finish">Deskargatu da.</string>
+
+    <string name="lock_screen_update">Pantaila blokeatuaren eguneratzea</string>
+    <string name="new_version">Pantaila blokeatuaren bertsio berri bat dago erabilgarri.</string>
+    <string name="tip_cancel">UTZI</string>
+    <string name="tip_update">EGUNERATU</string>
+    <string name="update_restart">Eguneratu orain eta, amaitutakoan, telefonoa berrabiaraziko da.</string>
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Sẵn có phiên bản mới của %1$2s. Cài đặt ngay bây giờ？</string>
+    <string name="dialog_install">CÀI ĐẶT</string>
+    <string name="dialog_later">ĐỂ SAU</string>
+    <string name="dialog_title">Phiên bản mới</string>
+
+    <string name="notification_download_fail">Tải về thất bại. Vui lòng chạm để thử lại.</string>
+    <string name="notification_downloading">Đang tải về</string>
+    <string name="notification_finish">Hoàn tất tải về.</string>
+    
+    	<string name="lock_screen_update">Cập nhật Màn hình Khóa</string>
+	<string name="new_version">Sẵn có phiên bản mới của Màn hình Khóa.</string>
+	<string name="tip_cancel">HỦY</string>
+	<string name="tip_update">CẬP NHẬT</string>
+	<string name="update_restart">Cập nhật ngay bây giờ và điện thoại sẽ khởi động lại.</string>
+
+</resources>

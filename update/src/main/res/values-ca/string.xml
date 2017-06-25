@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Hi ha una nova versió de %1$2s disponible. Voleu instal·lar-la ara？</string>
+    <string name="dialog_install">INSTAL·LAR</string>
+    <string name="dialog_later">MÉS TARD</string>
+    <string name="dialog_title">Versió nova</string>
+
+    <string name="notification_download_fail">&quot;No s'ha pogut baixar. Toqueu per tornar-ho a provar.&quot;</string>
+    <string name="notification_downloading">&quot;S'està baixant&quot;</string>
+    <string name="notification_finish">Baixada finalitzada.</string>
+
+    <string name="lock_screen_update">Actualització de la pantalla de bloqueig</string>
+    <string name="new_version">Hi ha una versió nova de la pantalla de bloqueig disponible.</string>
+    <string name="tip_cancel">CANCEL·LAR</string>
+    <string name="tip_update">ACTUALITZAR</string>
+    <string name="update_restart">&quot;Si l'actualitzeu ara, es reiniciarà el telèfon.&quot;</string>
+</resources>

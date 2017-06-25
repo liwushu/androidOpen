@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">K dispozícii je nová verzia %1$2s. Chcete ju nainštalovať teraz?</string>
+    <string name="dialog_install">INŠTALOVAŤ</string>
+    <string name="dialog_later">NESKÔR</string>
+    <string name="dialog_title">Nová verzia</string>
+
+    <string name="notification_download_fail">Sťahovanie zlyhalo. Ťuknite, ak ho chcete spustiť znova.</string>
+    <string name="notification_downloading">Sťahuje sa</string>
+    <string name="notification_finish">Sťahovanie je dokončené.</string>
+    
+    	<string name="lock_screen_update">Aktualizácia Zablokovania obrazovky</string>
+	<string name="new_version">K dispozícii je nová verzia aplikácie Zablokovanie obrazovky.</string>
+	<string name="tip_cancel">ZRUŠIŤ</string>
+	<string name="tip_update">AKTUALIZOVAŤ</string>
+	<string name="update_restart">Aktualizujte teraz a telefón sa reštartuje.</string>
+
+</resources>

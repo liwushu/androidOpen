@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">새로운 버전의 %1$2s을(를) 사용할 수 있습니다. 지금 설치하시겠습니까？</string>
+    <string name="dialog_install">설치</string>
+    <string name="dialog_later">나중에</string>
+    <string name="dialog_title">새 버전</string>
+
+    <string name="notification_download_fail">다운로드 실패함. 터치하여 재시도하세요.</string>
+    <string name="notification_downloading">다운로드 중</string>
+    <string name="notification_finish">다운로드 완료됨.</string>
+    
+    	<string name="lock_screen_update">잠금 화면 업데이트</string>
+	<string name="new_version">새로운 버전의 잠금 화면을 사용할 수 있습니다.</string>
+	<string name="tip_cancel">취소</string>
+	<string name="tip_update">업데이트</string>
+	<string name="update_restart">지금 업데이트하면 휴대폰이 재시작됩니다.</string>
+
+</resources>

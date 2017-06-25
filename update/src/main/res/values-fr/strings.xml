@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">&quot;Une nouvelle version de %1$2s est disponible. Voulez-vous l'installer maintenant ？</string>
+    <string name="dialog_install">INSTALLER</string>
+    <string name="dialog_later">PLUS TARD</string>
+    <string name="dialog_title">Nouvelle version</string>
+
+    <string name="notification_download_fail">Échec du téléchargement. Appuyez pour réessayez.</string>
+    <string name="notification_downloading">Téléchargement</string>
+    <string name="notification_finish">Le téléchargement est terminé.</string>
+
+    <string name="lock_screen_update">Mise à jour écran de verrouillage</string>
+    <string name="new_version">&quot;Une nouvelle version de l'écran de verrouillage est disponible.&quot;</string>
+    <string name="tip_cancel">ANNULER</string>
+    <string name="tip_update">METTRE À JOUR</string>
+    <string name="update_restart">Le téléphone redémarrera après la mise à jour.</string>
+</resources>

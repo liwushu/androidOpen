@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Υπάρχει διαθέσιμη μια νέα έκδοση της εφαρμογής &quot;%1$2s&quot;. Θέλετε να την εγκαταστήσετε τώρα;</string>
+    <string name="dialog_install">ΕΓΚΑΤΑΣΤΑΣΗ</string>
+    <string name="dialog_later">ΑΡΓΟΤΕΡΑ</string>
+    <string name="dialog_title">Νέα έκδοση</string>
+
+    <string name="notification_download_fail">Η λήψη απέτυχε. Αγγίξτε για επανάληψη.</string>
+    <string name="notification_downloading">Λήψη σε εξέλιξη</string>
+    <string name="notification_finish">Η λήψη ολοκληρώθηκε.</string>
+
+    <string name="lock_screen_update">Ενημέρωση εφαρμογής &quot;Οθόνη κλειδώματος</string>
+    <string name="new_version">Υπάρχει διαθέσιμη μια νέα έκδοση της εφαρμογής &quot;Οθόνη κλειδώματος&quot;.</string>
+    <string name="tip_cancel">ΑΚΥΡΩΣΗ</string>
+    <string name="tip_update">ΕΝΗΜΕΡΩΣΗ</string>
+    <string name="update_restart">Κάντε την ενημέρωση τώρα και θα γίνει επανεκκίνηση του τηλεφώνου.</string>
+
+</resources>

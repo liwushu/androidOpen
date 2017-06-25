@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">يتوفر إصدار جديد من %1$2s. هل تريد تثبيته الآن؟</string>
+    <string name="dialog_install">تثبيت</string>
+    <string name="dialog_later">لاحقًا</string>
+    <string name="dialog_title">إصدار جديد</string>
+
+    <string name="notification_download_fail">فشل التنزيل. يرجى اللمس لإعادة المحاولة.</string>
+    <string name="notification_downloading">جارٍ التنزيل</string>
+    <string name="notification_finish">اكتمل التنزيل.</string>
+
+    <!-- update systemui add -->
+    <string name="lock_screen_update">تحديث Lock Screen</string>
+    <string name="new_version">يتوفر إصدار جديد من Lock Screen.</string>
+    <string name="tip_cancel">إلغاء</string>
+    <string name="tip_update">تحديث</string>
+    <string name="update_restart">يرجى التحديث الآن وستتم إعادة تشغيل الهاتف.</string>
+</resources>

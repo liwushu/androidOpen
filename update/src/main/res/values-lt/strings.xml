@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Galima nauja %1$2s versija. Įdiegti dabar？</string>
+    <string name="dialog_install">DIEGTI</string>
+    <string name="dialog_later">VĖLIAU</string>
+    <string name="dialog_title">Nauja versija</string>
+
+    <string name="notification_download_fail">Atsisiųsti nepavyko. Palieskite, kad bandytumėte iš naujo.</string>
+    <string name="notification_downloading">Atsisiunčiama</string>
+    <string name="notification_finish">Atsiusiuntimas baigtas.</string>
+    
+    	<string name="lock_screen_update">Ekrano užrakto naujinimas</string>
+	<string name="new_version">Yra nauja ekrano užrakto versija.</string>
+	<string name="tip_cancel">ATŠAUKTI</string>
+	<string name="tip_update">ATNAUJINTI</string>
+	<string name="update_restart">Atnaujinkite dabar ir įrenginys bus perkrautas.</string>
+
+</resources>

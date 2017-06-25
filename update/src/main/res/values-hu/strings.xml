@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Egy új %1$2s verzió érhető el. Telepíti most?</string>
+    <string name="dialog_install">TELEPÍTÉS</string>
+    <string name="dialog_later">KÉSŐBB</string>
+    <string name="dialog_title">Új verzió</string>
+
+    <string name="notification_download_fail">Letöltés sikertelen. Érintse meg az újrapróbálkozáshoz.</string>
+    <string name="notification_downloading">Letöltés folyamatban…</string>
+    <string name="notification_finish">Letöltés befejezve.</string>
+    
+ 	<string name="lock_screen_update">Képernyőzár alkalmazás frissítése</string>
+	<string name="new_version">A Képernyőzár alkalmazás egy új verziója elérhető.</string>
+	<string name="tip_cancel">MÉGSE</string>
+	<string name="tip_update">FRISSÍTÉS</string>
+	<string name="update_restart">Frissítse most, a telefon pedig újraindul.</string>
+   
+</resources>

@@ -59,4 +59,5 @@ dependencies {
     compile 'org.greenrobot:greendao:3.2.2'
     compile "com.android.support:recyclerview-v7:${project.ANDROID_SUPPORT_VERSION}"
     compile "com.android.support:design:${project.ANDROID_SUPPORT_VERSION}"
+    compile project(':download')
 }

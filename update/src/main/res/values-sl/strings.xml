@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Na voljo je nova različica %1$2s. Jo želite namestiti zdaj？</string>
+    <string name="dialog_install">NAMESTI</string>
+    <string name="dialog_later">POZNEJE</string>
+    <string name="dialog_title">Nova različica</string>
+
+    <string name="notification_download_fail">Prenos ni uspel. Dotaknite se znova za ponoven poskus.</string>
+    <string name="notification_downloading">Prenos</string>
+    <string name="notification_finish">Prenos je dokončan.</string>
+    
+    	<string name="lock_screen_update">Posodobitev za zaklenjeni zaslon</string>
+	<string name="new_version">Na voljo je nova različica zaklenjenega zaslona.</string>
+	<string name="tip_cancel">PREKLIČI</string>
+	<string name="tip_update">POSODOBI</string>
+	<string name="update_restart">Posodobite zdaj in telefon se bo znova zagnal.</string>
+</resources>

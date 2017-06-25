@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Er is een nieuwe versie van %1$2s beschikbaar. Nu installeren？</string>
+    <string name="dialog_install">INSTALLEREN</string>
+    <string name="dialog_later">LATER</string>
+    <string name="dialog_title">Nieuwe versie</string>
+
+    <string name="notification_download_fail">Download mislukt. Raak aan om het opnieuw te proberen.</string>
+    <string name="notification_downloading">Downloaden</string>
+    <string name="notification_finish">Download voltooid.</string>
+    
+    	<string name="lock_screen_update">Update voor Vergrendelscherm</string>
+	<string name="new_version">Er is een nieuwe versie van Vergrendelscherm beschikbaar.</string>
+	<string name="tip_cancel">ANNULEREN</string>
+	<string name="tip_update">BIJWERKEN</string>
+	<string name="update_restart">Werk nu bij naar de nieuwe versie. De telefoon wordt opnieuw opgestart.</string>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dialog_content">Uma nova versão do %1$2s está disponível. Instalar agora?</string>
+    <string name="dialog_install">INSTALAR</string>
+    <string name="dialog_later">MAIS TARDE</string>
+    <string name="dialog_title">Nova versão</string>
+
+    <string name="notification_download_fail">Falha no download. Toque para voltar a tentar.</string>
+    <string name="notification_downloading">Fazendo o download</string>
+    <string name="notification_finish">Download concluído.</string>
+    
+    	<string name="lock_screen_update">Atualização da Tela de bloqueio</string>
+	<string name="new_version">Nova versão da Tela de bloqueio disponível.</string>
+	<string name="tip_cancel">CANCELAR</string>
+	<string name="tip_update">ATUALIZAR</string>
+	<string name="update_restart">Atualize agora e o telefone será reiniciado.</string>
+
+</resources>
