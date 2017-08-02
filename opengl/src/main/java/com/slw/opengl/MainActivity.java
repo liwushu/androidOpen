@@ -11,6 +11,7 @@ import android.widget.Toast;
 import com.slw.opengl.pojo.MyOpenglRenderer;
 
 import com.slw.opengl.pojo.MyFirstRenderer;
+import com.slw.opengl.utils.ApkUtils;
 import com.slw.opengl.utils.ToastUtils;
 
 public class MainActivity extends AppCompatActivity {
@@ -22,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        if(!checkGLSurfaceViewSupport()){
+        if(!ApkUtils.isSupportOpengl(this)){
             ToastUtils.show(R.string.can_not_support_opengl);
             return;
         }
@@ -32,24 +33,12 @@ public class MainActivity extends AppCompatActivity {
 
     private void initOpenGl(){
         glSurfaceView = new GLSurfaceView(this);
-        glSurfaceView.setRenderer(new MyFirstRenderer());
+        glSurfaceView.setRenderer(new MyOpenglRenderer());
 
         setContentView(glSurfaceView);
 
     }
 
-
-
-    private boolean checkGLSurfaceViewSupport(){
-        ActivityManager activityManager = (ActivityManager)getSystemService(Context.ACTIVITY_SERVICE);
-        ConfigurationInfo configurationInfo = activityManager.getDeviceConfigurationInfo();
-
-        if(0x20000 <= configurationInfo.reqGlEsVersion){
-
-            return true;
-        }
-        return false;
-    }
 
     @Override
     public void onResume(){
