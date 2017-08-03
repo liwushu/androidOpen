@@ -15,8 +15,12 @@ import javax.microedition.khronos.egl.EGLConfig;
 import javax.microedition.khronos.opengles.GL10;
 
 import static android.opengl.GLES20.GL_FALSE;
+import static android.opengl.GLES20.GL_TRIANGLES;
+import static android.opengl.GLES20.glDrawArrays;
+import static android.opengl.GLES20.glEnableVertexAttribArray;
 import static android.opengl.GLES20.glGetAttribLocation;
 import static android.opengl.GLES20.glGetUniformLocation;
+import static android.opengl.GLES20.glUniform4f;
 import static android.opengl.GLES20.glUseProgram;
 import static android.opengl.GLES20.glVertexAttribPointer;
 
@@ -24,8 +28,9 @@ import static android.opengl.GLES20.glVertexAttribPointer;
  * Created by ubt on 2017/8/3.
  */
 
-public class AirHockeyRender extends GLSurfaceView.Renderer{
+public class AirHockeyRender implements GLSurfaceView.Renderer {
     private static final int FLOAT_BYTE_SIZE = 4;
+    private static final int POSITION_COMPONENT_COUNT = 2;
     private static final String U_COLOR = "u_color";
     private static final String A_POSITION = "a_Position";
     public int uColorLocation;
@@ -42,7 +47,7 @@ public class AirHockeyRender extends GLSurfaceView.Renderer{
             0f,14f,
             9f,14f,
             9f,0f,
-    }
+    };
 
     float[] tableVertexWithTriangles = {
         //triangle
@@ -67,8 +72,6 @@ public class AirHockeyRender extends GLSurfaceView.Renderer{
         byteBuffer.order(ByteOrder.nativeOrder());
         vertexData = byteBuffer.asFloatBuffer();
         vertexData.put(tableVertexWithTriangles);
-        vertexData.position(0);
-
     }
 
     @Override
@@ -85,8 +88,8 @@ public class AirHockeyRender extends GLSurfaceView.Renderer{
         }
         uColorLocation = glGetUniformLocation(program,U_COLOR);
         aPositionLocation = glGetAttribLocation(program,A_POSITION);
-        vertexData.position(0);
-        glVertexAttribPointer(aPositionLocation,POSITION_COMPONENT_COUNT,GL_FALSE,0,vertexData);
+        glVertexAttribPointer(aPositionLocation,POSITION_COMPONENT_COUNT,GL_FALSE,false,0,vertexData);
+        glEnableVertexAttribArray(aPositionLocation);
 
     }
 
@@ -97,6 +100,7 @@ public class AirHockeyRender extends GLSurfaceView.Renderer{
 
     @Override
     public void onDrawFrame(GL10 gl) {
-
+        glUniform4f(uColorLocation,1.0f,1.0f,1.0f,1.0f);
+        glDrawArrays(GL_TRIANGLES,0,6);
     }
 }

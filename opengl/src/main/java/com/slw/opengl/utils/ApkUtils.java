@@ -47,10 +47,12 @@ public class ApkUtils {
         if(!TextUtils.isEmpty(model)){
             if(model.contains("google_sdk")||
                     model.contains("Emulator")||
-                        model.contains("Android SDK built for x86")
+                    model.contains("genymotion")||
+                    model.contains("Android SDK built for x86")
                     )
                 return true;
         }
+
         return false;
     }
 }
