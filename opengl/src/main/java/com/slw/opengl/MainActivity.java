@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
+import com.slw.opengl.game.AirHockeyRender;
 import com.slw.opengl.pojo.MyOpenglRenderer;
 
 import com.slw.opengl.pojo.MyFirstRenderer;
@@ -33,10 +34,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void initOpenGl(){
         glSurfaceView = new GLSurfaceView(this);
-        glSurfaceView.setRenderer(new MyOpenglRenderer());
-
-        setContentView(glSurfaceView);
-
+        glSurfaceView.setRenderer(new AirHockeyRender(this));
     }
 
 
