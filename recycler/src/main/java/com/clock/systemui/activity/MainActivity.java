@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+import com.clock.systemui.MainActivity_new;
 import com.clock.systemui.R;
 import com.clock.systemui.activity.bs.BottomSheetsDemoActivity;
 import com.clock.systemui.activity.bt.BarTabDemoActivity;
@@ -41,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     public void onClick(View v) {
         int viewId = v.getId();
         if (viewId == R.id.btn_translucent_demo) {
-            Intent intent = new Intent(this, TranslucentDemoActivity.class);
+            Intent intent = new Intent(this, MainActivity_new.class);
             startActivity(intent);
 
         } else if (viewId == R.id.btn_toolbar_demo) {

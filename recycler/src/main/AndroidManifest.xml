@@ -67,6 +67,11 @@
         <activity
             android:name=".activity.listview.ListViewDemoActivity"
             android:label="ListView" />
+
+        <activity android:name=".MainActivity_new"
+            android:theme="@style/FullscreenTheme"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            />
     </application>
 
 </manifest>

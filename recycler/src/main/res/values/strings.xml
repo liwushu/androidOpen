@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AndroidSystemUiTraining</string>
+    <string name="app_name">TestRecycler</string>
     <string name="image_translucent_bar">Image Translucent Bar Training</string>
     <string name="color_translucent_bar">Color Translucent Bar Training</string>
     <string name="tool_bar">ToolBar Training</string>

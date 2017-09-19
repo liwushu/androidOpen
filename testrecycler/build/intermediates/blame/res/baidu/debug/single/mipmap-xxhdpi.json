@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/mipmap-xxhdpi/lufy.png",
+        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/mipmap-xxhdpi/lufy.png"
+    },
+    {
+        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/mipmap-xxhdpi/email_icon.png",
+        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/mipmap-xxhdpi/email_icon.png"
+    },
+    {
+        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/mipmap-xxhdpi/ic_launcher.png",
+        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/mipmap-xxhdpi/conghua.png",
+        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/mipmap-xxhdpi/conghua.png"
+    },
+    {
+        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/mipmap-xxhdpi/empty.png",
+        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/mipmap-xxhdpi/empty.png"
+    }
+]

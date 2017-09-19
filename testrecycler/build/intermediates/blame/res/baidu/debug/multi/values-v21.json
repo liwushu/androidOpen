@@ -1,0 +1,1185 @@
+[
+    {
+        "outputFile": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/incremental/mergeBaiduDebugResources/merged.dir/values-v21/values-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endLine": 7,
+                    "endColumn": 12,
+                    "endOffset": 369
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 54,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 368
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 374,
+                    "endColumn": 90,
+                    "endOffset": 460
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 465,
+                    "endColumn": 102,
+                    "endOffset": 563
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 568,
+                    "endColumn": 102,
+                    "endOffset": 666
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 671,
+                    "endColumn": 104,
+                    "endOffset": 771
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 776,
+                    "endColumn": 106,
+                    "endOffset": 878
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 883,
+                    "endColumn": 108,
+                    "endOffset": 987
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 992,
+                    "endColumn": 108,
+                    "endOffset": 1096
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1101,
+                    "endColumn": 108,
+                    "endOffset": 1205
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1210,
+                    "endColumn": 108,
+                    "endOffset": 1314
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1319,
+                    "endColumn": 108,
+                    "endOffset": 1423
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1428,
+                    "endColumn": 106,
+                    "endOffset": 1530
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1535,
+                    "endColumn": 102,
+                    "endOffset": 1633
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1638,
+                    "endColumn": 118,
+                    "endOffset": 1752
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1757,
+                    "endLine": 22,
+                    "endColumn": 12,
+                    "endOffset": 1907
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1912,
+                    "endLine": 24,
+                    "endColumn": 12,
+                    "endOffset": 2062
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2067,
+                    "endColumn": 104,
+                    "endOffset": 2167
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 2172,
+                    "endColumn": 120,
+                    "endOffset": 2288
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 2293,
+                    "endColumn": 100,
+                    "endOffset": 2389
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 2394,
+                    "endLine": 29,
+                    "endColumn": 12,
+                    "endOffset": 2536
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 2541,
+                    "endLine": 31,
+                    "endColumn": 12,
+                    "endOffset": 2677
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2682,
+                    "endColumn": 102,
+                    "endOffset": 2780
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2785,
+                    "endColumn": 118,
+                    "endOffset": 2899
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2904,
+                    "endColumn": 106,
+                    "endOffset": 3006
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 3011,
+                    "endColumn": 102,
+                    "endOffset": 3109
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 3114,
+                    "endLine": 37,
+                    "endColumn": 12,
+                    "endOffset": 3264
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 3269,
+                    "endLine": 39,
+                    "endColumn": 12,
+                    "endOffset": 3435
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 3440,
+                    "endLine": 41,
+                    "endColumn": 12,
+                    "endOffset": 3584
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 3589,
+                    "endLine": 43,
+                    "endColumn": 12,
+                    "endOffset": 3749
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3754,
+                    "endLine": 45,
+                    "endColumn": 12,
+                    "endOffset": 3906
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3911,
+                    "endLine": 47,
+                    "endColumn": 12,
+                    "endOffset": 4057
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 4062,
+                    "endColumn": 118,
+                    "endOffset": 4176
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 4181,
+                    "endLine": 50,
+                    "endColumn": 12,
+                    "endOffset": 4325
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 4330,
+                    "endLine": 52,
+                    "endColumn": 12,
+                    "endOffset": 4474
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 4479,
+                    "endColumn": 111,
+                    "endOffset": 4586
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 4591,
+                    "endColumn": 146,
+                    "endOffset": 4733
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 4738,
+                    "endLine": 56,
+                    "endColumn": 12,
+                    "endOffset": 4886
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 4891,
+                    "endLine": 58,
+                    "endColumn": 12,
+                    "endOffset": 5033
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 5038,
+                    "endColumn": 74,
+                    "endOffset": 5108
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 60,
+                    "startColumn": 4,
+                    "startOffset": 5113,
+                    "endColumn": 88,
+                    "endOffset": 5197
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 61,
+                    "startColumn": 4,
+                    "startOffset": 5202,
+                    "endColumn": 86,
+                    "endOffset": 5284
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 62,
+                    "startColumn": 4,
+                    "startOffset": 5289,
+                    "endColumn": 100,
+                    "endOffset": 5385
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 63,
+                    "startColumn": 4,
+                    "startOffset": 5390,
+                    "endLine": 106,
+                    "endColumn": 12,
+                    "endOffset": 8237
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 8242,
+                    "endLine": 109,
+                    "endColumn": 12,
+                    "endOffset": 8423
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 8428,
+                    "endLine": 153,
+                    "endColumn": 12,
+                    "endOffset": 11287
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 11292,
+                    "endLine": 156,
+                    "endColumn": 12,
+                    "endOffset": 11485
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 11490,
+                    "endLine": 158,
+                    "endColumn": 12,
+                    "endOffset": 11608
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 11613,
+                    "endLine": 160,
+                    "endColumn": 12,
+                    "endOffset": 11731
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 11736,
+                    "endLine": 162,
+                    "endColumn": 12,
+                    "endOffset": 11844
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 11849,
+                    "endLine": 165,
+                    "endColumn": 12,
+                    "endOffset": 12027
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 12032,
+                    "endLine": 167,
+                    "endColumn": 12,
+                    "endOffset": 12158
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 12163,
+                    "endLine": 170,
+                    "endColumn": 12,
+                    "endOffset": 12359
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 171,
+                    "startColumn": 4,
+                    "startOffset": 12364,
+                    "endColumn": 88,
+                    "endOffset": 12448
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 172,
+                    "startColumn": 4,
+                    "startOffset": 12453,
+                    "endColumn": 110,
+                    "endOffset": 12559
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 173,
+                    "startColumn": 4,
+                    "startOffset": 12564,
+                    "endColumn": 126,
+                    "endOffset": 12686
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 174,
+                    "startColumn": 4,
+                    "startOffset": 12691,
+                    "endColumn": 100,
+                    "endOffset": 12787
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 175,
+                    "startColumn": 4,
+                    "startOffset": 12792,
+                    "endColumn": 94,
+                    "endOffset": 12882
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 176,
+                    "startColumn": 4,
+                    "startOffset": 12887,
+                    "endColumn": 122,
+                    "endOffset": 13005
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 177,
+                    "startColumn": 4,
+                    "startOffset": 13010,
+                    "endColumn": 128,
+                    "endOffset": 13134
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 178,
+                    "startColumn": 4,
+                    "startOffset": 13139,
+                    "endColumn": 116,
+                    "endOffset": 13251
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 179,
+                    "startColumn": 4,
+                    "startOffset": 13256,
+                    "endLine": 181,
+                    "endColumn": 12,
+                    "endOffset": 13428
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 182,
+                    "startColumn": 4,
+                    "startOffset": 13433,
+                    "endColumn": 98,
+                    "endOffset": 13527
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 183,
+                    "startColumn": 4,
+                    "startOffset": 13532,
+                    "endLine": 184,
+                    "endColumn": 12,
+                    "endOffset": 13662
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 185,
+                    "startColumn": 4,
+                    "startOffset": 13667,
+                    "endLine": 186,
+                    "endColumn": 12,
+                    "endOffset": 13805
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 187,
+                    "startColumn": 4,
+                    "startOffset": 13810,
+                    "endLine": 188,
+                    "endColumn": 12,
+                    "endOffset": 13940
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 189,
+                    "startColumn": 4,
+                    "startOffset": 13945,
+                    "endLine": 190,
+                    "endColumn": 12,
+                    "endOffset": 14059
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 191,
+                    "startColumn": 4,
+                    "startOffset": 14064,
+                    "endLine": 194,
+                    "endColumn": 12,
+                    "endOffset": 14260
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 195,
+                    "startColumn": 4,
+                    "startOffset": 14265,
+                    "endLine": 196,
+                    "endColumn": 12,
+                    "endOffset": 14379
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 197,
+                    "startColumn": 4,
+                    "startOffset": 14384,
+                    "endColumn": 92,
+                    "endOffset": 14472
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 198,
+                    "startColumn": 4,
+                    "startOffset": 14477,
+                    "endColumn": 110,
+                    "endOffset": 14583
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 199,
+                    "startColumn": 4,
+                    "startOffset": 14588,
+                    "endColumn": 55,
+                    "endOffset": 14639
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 200,
+                    "startColumn": 4,
+                    "startOffset": 14644,
+                    "endLine": 201,
+                    "endColumn": 12,
+                    "endOffset": 14746
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 202,
+                    "startColumn": 4,
+                    "startOffset": 14751,
+                    "endLine": 205,
+                    "endColumn": 12,
+                    "endOffset": 14941
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 206,
+                    "startColumn": 4,
+                    "startOffset": 14946,
+                    "endLine": 207,
+                    "endColumn": 12,
+                    "endOffset": 15052
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 208,
+                    "startColumn": 4,
+                    "startOffset": 15057,
+                    "endLine": 209,
+                    "endColumn": 12,
+                    "endOffset": 15185
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 210,
+                    "startColumn": 4,
+                    "startOffset": 15190,
+                    "endColumn": 94,
+                    "endOffset": 15280
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 211,
+                    "startColumn": 4,
+                    "startOffset": 15285,
+                    "endColumn": 90,
+                    "endOffset": 15371
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 212,
+                    "startColumn": 4,
+                    "startOffset": 15376,
+                    "endColumn": 90,
+                    "endOffset": 15462
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 213,
+                    "startColumn": 4,
+                    "startOffset": 15467,
+                    "endColumn": 116,
+                    "endOffset": 15579
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 214,
+                    "startColumn": 4,
+                    "startOffset": 15584,
+                    "endLine": 215,
+                    "endColumn": 12,
+                    "endOffset": 15718
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 216,
+                    "startColumn": 4,
+                    "startOffset": 15723,
+                    "endLine": 220,
+                    "endColumn": 12,
+                    "endOffset": 16030
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/values-v21/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 221,
+                    "startColumn": 4,
+                    "startOffset": 16035,
+                    "endLine": 226,
+                    "endColumn": 12,
+                    "endOffset": 16397
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 374,
+                        "endLine": 15,
+                        "endColumn": 12,
+                        "endOffset": 736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 227,
+                    "startColumn": 4,
+                    "startOffset": 16402,
+                    "endLine": 236,
+                    "endColumn": 12,
+                    "endOffset": 16910
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 237,
+                    "startColumn": 4,
+                    "startOffset": 16915,
+                    "endLine": 246,
+                    "endColumn": 12,
+                    "endOffset": 17435
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 247,
+                    "startColumn": 4,
+                    "startOffset": 17440,
+                    "endLine": 256,
+                    "endColumn": 12,
+                    "endOffset": 18058
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 257,
+                    "startColumn": 4,
+                    "startOffset": 18063,
+                    "endColumn": 56,
+                    "endOffset": 18115
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 258,
+                    "startColumn": 4,
+                    "startOffset": 18120,
+                    "endColumn": 57,
+                    "endOffset": 18173
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/values-v21/values-v21.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 259,
+                    "startColumn": 4,
+                    "startOffset": 18178,
+                    "endLine": 265,
+                    "endColumn": 12,
+                    "endOffset": 18607
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 4,
+                        "startOffset": 1713,
+                        "endLine": 42,
+                        "endColumn": 12,
+                        "endOffset": 2142
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 266,
+                    "startColumn": 4,
+                    "startOffset": 18612,
+                    "endLine": 270,
+                    "endColumn": 12,
+                    "endOffset": 18926
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/values-v21/styles.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 271,
+                    "startColumn": 4,
+                    "startOffset": 18931,
+                    "endLine": 276,
+                    "endColumn": 12,
+                    "endOffset": 19263
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1375,
+                        "endLine": 34,
+                        "endColumn": 12,
+                        "endOffset": 1707
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 277,
+                    "startColumn": 4,
+                    "startOffset": 19268,
+                    "endLine": 282,
+                    "endColumn": 12,
+                    "endOffset": 19609
+                },
+                "from": {
+                    "file": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 4,
+                        "startOffset": 2148,
+                        "endLine": 49,
+                        "endColumn": 12,
+                        "endOffset": 2489
+                    }
+                }
+            }
+        ]
+    }
+]
