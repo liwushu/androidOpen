@@ -3,13 +3,6 @@ project(':lib') {
     apply plugin: 'java'
 
     mainClassName = "com.example.MyClass"
-    // edit output direction
-    //outputDir = "../test/src/main/java-gen"
-
-//    compileOptions.with {
-//        sourceCompatibility = JavaVersion.VERSION_1_7
-//        targetCompatibility = JavaVersion.VERSION_1_7
-//    }
 
 
     dependencies {
@@ -17,12 +10,4 @@ project(':lib') {
         compile('org.greenrobot:greendao-generator:3.2.2')
     }
 
-//    task createDocs {
-//        def docs = file(outputDir)
-//        docs.mkdirs()
-//    }
-
-//    run {
-//        args outputDir
-//    }
 }

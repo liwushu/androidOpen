@@ -1,0 +1,70 @@
+apply plugin: 'com.android.application'
+
+def bakPath = file("${buildDir}/bakFile/")
+def bakFiles = ["mapping.txt","resources.txt","seeds.txt","usage.txt"]
+
+android {
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.android.flying"
+        minSdkVersion rootProject.ext.android.miniSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.activityEvent.versionCode
+        versionName rootProject.ext.activityEvent.versionName
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+    android.applicationVariants.all{ variant->
+        def taskName = variant.name
+        tasks.all{
+            if("assemble${taskName}".equalsIgnoreCase(it.name)){
+                it.doLast{
+                    copy{
+                        def fileName = getProductName() + "_${releaseTime()}"
+                        if(variant.productFlavors != null && variant.productFlavors[0] != null){
+                            fileName += "_"+variant.productFlavors[0].name
+                        }
+
+                        if(variant.buildType != null){
+                            fileName += "_"+variant.buildType.name
+                        }
+                        def destPath = bakPath;
+                        def apkName = fileName+".apk"
+                        def sourceApk = variant.outputs.outputFile
+                        def sourceApkName = sourceApk[0].getName()
+                        from sourceApk
+                        into destPath
+
+                        //备份 apk
+                        include(sourceApkName)
+                        rename(sourceApkName,apkName)
+
+                        //备份混淆文件
+                        from "${buildDir}/outputs/mapping/${variant.dirName}/"
+                        into destPath
+                        for(bakFileName in bakFiles){
+                            include(bakFileName)
+                            rename(bakFileName,fileName+"_"+bakFileName)
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+
+    compile rootProject.ext.dependencies.supportV4
+    compile rootProject.ext.dependencies.appCompatV7
+}

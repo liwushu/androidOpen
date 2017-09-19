@@ -2,16 +2,17 @@ apply plugin: 'com.android.application'
 apply plugin: 'com.neenbedankt.android-apt'
 
 android {
-    compileSdkVersion Integer.parseInt(project.COMPILE_SDK_VERSION)
-    buildToolsVersion project.BUILD_TOOLS_VERSION
+    compileSdkVersion rootProject.ext.android.compileSdkVersion
+    buildToolsVersion rootProject.ext.android.buildToolsVersion
+
     defaultConfig {
         applicationId "com.android.event"
-        minSdkVersion Integer.parseInt(project.MIN_SDK_VERSION)
-        targetSdkVersion Integer.parseInt(project.TARGET_SDK_VERSION)
-        versionCode 1
-        versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        minSdkVersion rootProject.ext.android.miniSdkVersion
+        targetSdkVersion rootProject.ext.android.targetSdkVersion
+        versionCode rootProject.ext.activityEvent.versionCode
+        versionName rootProject.ext.activityEvent.versionName
     }
+
     buildTypes {
         release {
             minifyEnabled false
@@ -22,7 +23,8 @@ android {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile "com.android.support:appcompat-v7:${project.ANDROID_SUPPORT_VERSION}"
-    compile 'com.jakewharton:butterknife:8.0.1'
+    compile rootProject.ext.dependencies.supportV4
+    compile rootProject.ext.dependencies.appCompatV7
+    compile rootProject.ext.dependencies.butterknife
     apt 'com.jakewharton:butterknife-compiler:8.0.1'
 }

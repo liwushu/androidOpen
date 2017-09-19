@@ -6,6 +6,16 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <ToggleButton
+        android:id="@+id/switch_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:button = "@drawable/toggle_selector"
+        android:textOn=""
+        android:textOff=""
+        />
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="100dp"

@@ -4,6 +4,9 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.CompoundButton;
+import android.widget.Toast;
+import android.widget.ToggleButton;
 
 import com.android.event.view.CircleColorView;
 import com.android.event.view.CircleMoveView;
@@ -18,6 +21,7 @@ public class LoadingViewActivity extends Activity {
     private CircleSmileView circleSmileView;
     private CircleRotateView circleRotateView;
     private CircleProgressView circleProgressView;
+    private ToggleButton toggleButton;
 
 
     @Override
@@ -54,6 +58,18 @@ public class LoadingViewActivity extends Activity {
                 circleSmileView.endAnimation();
                 circleRotateView.endAnimation();
                 circleProgressView.endAnimation();
+            }
+        });
+
+        toggleButton = (ToggleButton)findViewById(R.id.switch_view);
+        toggleButton.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+            @Override
+            public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
+                if(isChecked){
+                    Toast.makeText(getApplicationContext(),"show",Toast.LENGTH_SHORT).show();
+                }else {
+                    Toast.makeText(getApplicationContext(),"hide",Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }

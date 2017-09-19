@@ -1,11 +1,14 @@
 package com.slw.opengl.game;
 
 import android.content.Context;
+import android.opengl.GLES20;
 import android.opengl.GLSurfaceView;
+import android.util.Log;
 
 import com.slw.opengl.R;
 import com.slw.opengl.pojo.ShadeHelper;
 import com.slw.opengl.pojo.TextResourceReader;
+import com.slw.opengl.utils.LogUtils;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
@@ -16,6 +19,7 @@ import javax.microedition.khronos.opengles.GL10;
 
 import static android.opengl.GLES20.GL_FALSE;
 import static android.opengl.GLES20.GL_TRIANGLES;
+import static android.opengl.GLES20.glClear;
 import static android.opengl.GLES20.glDrawArrays;
 import static android.opengl.GLES20.glEnableVertexAttribArray;
 import static android.opengl.GLES20.glGetAttribLocation;
@@ -23,6 +27,7 @@ import static android.opengl.GLES20.glGetUniformLocation;
 import static android.opengl.GLES20.glUniform4f;
 import static android.opengl.GLES20.glUseProgram;
 import static android.opengl.GLES20.glVertexAttribPointer;
+import static android.opengl.GLES20.glViewport;
 
 /**
  * Created by ubt on 2017/8/3.
@@ -61,6 +66,7 @@ public class AirHockeyRender implements GLSurfaceView.Renderer {
     };
 
     public AirHockeyRender(Context context){
+        LogUtils.logd("AirHockeyRender");
         this.mContext = context;
         vertexShaderCode = TextResourceReader.readTextFileFromResource(context, R.raw.simple_vertex_shader);
         fragmentShaderCode = TextResourceReader.readTextFileFromResource(context,R.raw.simple_fragment_shader);
@@ -68,6 +74,7 @@ public class AirHockeyRender implements GLSurfaceView.Renderer {
     }
 
     private void initVertexBuffer(){
+        LogUtils.logd("initVertexBuffer");
         ByteBuffer byteBuffer = ByteBuffer.allocateDirect(tableVertexWithTriangles.length*FLOAT_BYTE_SIZE);
         byteBuffer.order(ByteOrder.nativeOrder());
         vertexData = byteBuffer.asFloatBuffer();
@@ -76,18 +83,22 @@ public class AirHockeyRender implements GLSurfaceView.Renderer {
 
     @Override
     public void onSurfaceCreated(GL10 gl, EGLConfig config) {
-        int vertexShaderId = ShadeHelper.compileFragmentShader(vertexShaderCode);
+        LogUtils.logd("onSurfaceCreated");
+        int vertexShaderId = ShadeHelper.compileVertexShader(vertexShaderCode);
         int fragmentShaderId = ShadeHelper.compileFragmentShader(fragmentShaderCode);
+        LogUtils.logd("vertexShaderId: "+vertexShaderId+"  fragmentShaderId: "+fragmentShaderId);
         if(vertexShaderId != 0 && fragmentShaderId != 0){
             program =ShadeHelper.linkProgram(vertexShaderId,fragmentShaderId);
 
         }
+        LogUtils.logd("program: "+program);
         if(program != 0){
             ShadeHelper.validateProgram(program);
             glUseProgram(program);
         }
         uColorLocation = glGetUniformLocation(program,U_COLOR);
         aPositionLocation = glGetAttribLocation(program,A_POSITION);
+        LogUtils.logd("uColorLocation: "+uColorLocation+"  aPositionLocation: "+aPositionLocation);
         glVertexAttribPointer(aPositionLocation,POSITION_COMPONENT_COUNT,GL_FALSE,false,0,vertexData);
         glEnableVertexAttribArray(aPositionLocation);
 
@@ -95,11 +106,13 @@ public class AirHockeyRender implements GLSurfaceView.Renderer {
 
     @Override
     public void onSurfaceChanged(GL10 gl, int width, int height) {
-
+        LogUtils.logd("onSurfaceChanged");
+        glViewport(0,0,width,height);
     }
 
     @Override
     public void onDrawFrame(GL10 gl) {
+        //glClear(GLES20.GL_COLOR_BUFFER_BIT);
         glUniform4f(uColorLocation,1.0f,1.0f,1.0f,1.0f);
         glDrawArrays(GL_TRIANGLES,0,6);
     }

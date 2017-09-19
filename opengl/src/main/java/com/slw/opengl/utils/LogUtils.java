@@ -15,7 +15,7 @@ public class LogUtils {
     }
 
     public static void logd(String tag,String msg){
-        Log.d(tag,msg);
+        Log.w(tag,msg);
     }
 
     public static void loge(String msg){

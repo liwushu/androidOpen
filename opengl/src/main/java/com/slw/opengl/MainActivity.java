@@ -9,10 +9,12 @@ import android.os.Bundle;
 import android.widget.Toast;
 
 import com.slw.opengl.game.AirHockeyRender;
+import com.slw.opengl.game.MyGlSurfaceView;
 import com.slw.opengl.pojo.MyOpenglRenderer;
 
 import com.slw.opengl.pojo.MyFirstRenderer;
 import com.slw.opengl.utils.ApkUtils;
+import com.slw.opengl.utils.LogUtils;
 import com.slw.opengl.utils.ToastUtils;
 
 public class MainActivity extends AppCompatActivity {
@@ -23,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        LogUtils.logd("onCreate");
         if(!ApkUtils.isSupportOpengl(this)){
             ToastUtils.show(R.string.can_not_support_opengl);
             return;
@@ -33,8 +35,9 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initOpenGl(){
-        glSurfaceView = new GLSurfaceView(this);
+        glSurfaceView = new MyGlSurfaceView(this);
         glSurfaceView.setRenderer(new AirHockeyRender(this));
+        //glSurfaceView.setRenderer(new MyFirstRenderer());
     }
 
 

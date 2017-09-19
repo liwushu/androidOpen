@@ -37,6 +37,7 @@ public class ShadeHelper {
 
     private static int compileShade(int type,String shadeCode){
         final int shaderObjectId = glCreateShader(type);
+        LogUtils.logd("shaderObjectId: "+shaderObjectId);
         if(shaderObjectId == 0){
             LogUtils.logd("shaderObjectId == 0");
             return 0;
