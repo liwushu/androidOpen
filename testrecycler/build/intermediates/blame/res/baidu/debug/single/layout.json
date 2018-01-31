@@ -4,16 +4,8 @@
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_card_view_demo.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_card_view_demo.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/author_info_layout.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/author_info_layout.xml"
     },
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_search_dropdown_item_icons_2line.xml",
@@ -24,60 +16,32 @@
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/select_dialog_item_material.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_tool_demo.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_tool_demo.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/content_pop_layout.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/content_pop_layout.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_navigation_demo.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_navigation_demo.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_main.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_main.xml"
     },
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_simple_navigation_drawer.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_simple_navigation_drawer.xml"
+        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_layout_snackbar_include.xml"
     },
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/design_layout_tab_text.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_layout_tab_text.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/design_layout_snackbar_include.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_layout_snackbar_include.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_cloud_music.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_cloud_music.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_navigation_drawer_animation.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_navigation_drawer_animation.xml"
+        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_main_test.xml",
+        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_main_test.xml"
     },
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/select_dialog_singlechoice_material.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/fragment_color_translucent.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/fragment_color_translucent.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/design_navigation_item_subheader.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_navigation_item_subheader.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_snack_bar_demo.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_snack_bar_demo.xml"
     },
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/design_navigation_menu_item.xml",
@@ -96,10 +60,6 @@
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_recycler_demo.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_recycler_demo.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_screen_simple.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_screen_simple.xml"
     },
@@ -110,10 +70,6 @@
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_action_bar_title_item.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_bar_title_item.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_zhi_hu.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_zhi_hu.xml"
     },
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_activity_chooser_view.xml",
@@ -128,16 +84,8 @@
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/fragment_author_info.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/fragment_author_info.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/design_navigation_menu.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_navigation_menu.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_bottom_sheets_demo.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_bottom_sheets_demo.xml"
     },
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/notification_template_media.xml",
@@ -152,20 +100,8 @@
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_color_translucent_bar.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_color_translucent_bar.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/drawer_menu_layout.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/drawer_menu_layout.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/author_card_layout.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/author_card_layout.xml"
     },
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_dialog_title_material.xml",
@@ -188,10 +124,6 @@
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_translucent_demo.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_translucent_demo.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/notification_media_action.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_media_action.xml"
     },
@@ -200,24 +132,16 @@
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_image_translucent_bar.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_image_translucent_bar.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/bottom_sheets_item.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/bottom_sheets_item.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/design_layout_tab_icon.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/notification_template_big_media_narrow.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_template_big_media_narrow.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_list_menu_item_radio.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/notification_template_big_media_narrow.xml",
+        "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_template_big_media_narrow.xml"
     },
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/design_navigation_item_separator.xml",
@@ -228,10 +152,6 @@
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_layout_snackbar.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_tool_bar.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_tool_bar.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_select_dialog_material.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_select_dialog_material.xml"
     },
@@ -240,40 +160,12 @@
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_navigation_item.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_simple_drawer.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_simple_drawer.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/author_small_card_layout.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/author_small_card_layout.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/drawer_content_layout.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/drawer_content_layout.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_collapsing_demo.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_collapsing_demo.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_best_translucent_bar.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_best_translucent_bar.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_list_view_demo.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_list_view_demo.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/main_activity_layout.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/main_activity_layout.xml"
     },
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_screen_content_include.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_screen_content_include.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/activity_bar_tab_demo.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/activity_bar_tab_demo.xml"
     },
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_screen_toolbar.xml",
@@ -296,10 +188,6 @@
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/layout/design_navigation_item_header.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/navigation_drawer_header.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/navigation_drawer_header.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_search_view.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_search_view.xml"
     },
@@ -312,19 +200,11 @@
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/notification_template_part_chronometer.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/bottom_sheets_layout.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/bottom_sheets_layout.xml"
-    },
-    {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_action_menu_item_layout.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_menu_item_layout.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/navigation_drawer_content.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/src/main/res/layout/navigation_drawer_content.xml"
+        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/layout/abc_action_menu_item_layout.xml",
+        "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/layout/abc_action_menu_item_layout.xml"
     }
 ]

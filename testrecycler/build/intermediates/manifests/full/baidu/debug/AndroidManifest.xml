@@ -5,78 +5,39 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="11"
+        android:minSdkVersion="15"
         android:targetSdkVersion="23" />
 
-    <application
-        android:name="com.clock.systemui.SystemUiApplication"
-        android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
-        android:supportsRtl="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name="com.clock.systemui.activity.MainActivity" >
+    <!-- <1>必须权限： -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 需要platform签名，或者需要push到system/priv-app目录下 -->
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <!-- <2>可选权限： -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RESTART_PACKAGES" />
+
+    <!-- systemUI update 新增权限 begin modify by flying -->
+    <uses-permission android:name="android.permission.SHUTDOWN" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.SYSTEM_OVERLAY_WINDOW" />
+
+    <application android:allowBackup="true" >
+        <activity
+            android:name="com.clock.systemui.MainActivity_new"
+            android:windowSoftInputMode="adjustUnspecified" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name="com.clock.systemui.activity.translucent.ImageTranslucentBarActivity"
-            android:label="@string/image_translucent_bar"
-            android:theme="@style/ImageTranslucentTheme" />
-        <activity
-            android:name="com.clock.systemui.activity.translucent.ColorTranslucentBarActivity"
-            android:label="@string/color_translucent_bar"
-            android:theme="@style/ColorTranslucentTheme" />
-        <activity
-            android:name="com.clock.systemui.activity.translucent.BestTranslucentBarActivity"
-            android:theme="@style/ColorTranslucentTheme" />
-        <activity
-            android:name="com.clock.systemui.activity.toolbar.ToolBarActivity"
-            android:label="@string/tool_bar" />
-        <activity
-            android:name="com.clock.systemui.activity.toolbar.ZhiHuActivity"
-            android:label="@string/zhi_hu"
-            android:theme="@style/Theme.ZhiHu" />
-        <activity
-            android:name="com.clock.systemui.activity.navigation.SimpleDrawerActivity"
-            android:label="@string/simple_drawer" />
-        <activity
-            android:name="com.clock.systemui.activity.navigation.SimpleNavigationDrawerActivity"
-            android:label="@string/simple_navigation_drawer"
-            android:theme="@style/Theme.Translucent.Navigation" />
-        <activity
-            android:name="com.clock.systemui.activity.navigation.CloudMusicActivity"
-            android:theme="@style/Theme.Translucent.Navigation" />
-        <activity android:name="com.clock.systemui.activity.navigation.NavigationDrawerAnimationActivity" />
-        <activity android:name="com.clock.systemui.activity.translucent.TranslucentDemoActivity" />
-        <activity android:name="com.clock.systemui.activity.toolbar.ToolDemoActivity" />
-        <activity android:name="com.clock.systemui.activity.navigation.NavigationDemoActivity" />
-        <activity
-            android:name="com.clock.systemui.activity.cardview.CardViewDemoActivity"
-            android:label="CardView" />
-        <activity
-            android:name="com.clock.systemui.activity.snackbar.SnackBarDemoActivity"
-            android:label="SnackBar" />
-        <activity
-            android:name="com.clock.systemui.activity.bt.BarTabDemoActivity"
-            android:label="AppBarLayout" />
-        <activity
-            android:name="com.clock.systemui.activity.collapsing.CollapsingDemoActivity"
-            android:label="D_clock爱吃葱花" />
-        <activity
-            android:name="com.clock.systemui.activity.recycler.RecyclerDemoActivity"
-            android:label="RecyclerView" />
-        <activity android:name="com.clock.systemui.activity.bs.BottomSheetsDemoActivity" />
-        <activity
-            android:name="com.clock.systemui.activity.listview.ListViewDemoActivity"
-            android:label="ListView" />
-        <activity
-            android:name="com.clock.systemui.MainActivity_new"
-            android:theme="@style/FullscreenTheme"
-            android:windowSoftInputMode="adjustResize|stateHidden" />
+        <activity android:name="com.clock.systemui.MainActivityTest" />
     </application>
 
 </manifest>

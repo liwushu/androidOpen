@@ -3,10 +3,12 @@ package com.clock.systemui;
 import android.annotation.TargetApi;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.graphics.Color;
 import android.graphics.Rect;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.FragmentActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
 import android.util.Log;
@@ -19,6 +21,7 @@ import android.view.Window;
 import android.view.WindowManager;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
+import android.view.inputmethod.InputMethodManager;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageView;
@@ -26,10 +29,11 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.lang.reflect.Field;
+import java.util.Map;
 import java.util.zip.Inflater;
 
 
-public class MainActivity_new extends Activity {
+public class MainActivity_new extends FragmentActivity {
 
     private Button mButton;
     ShapedImageView shapedImageView;
@@ -62,12 +66,13 @@ public class MainActivity_new extends Activity {
         statusBarHeight = getStatusBarHeight(getApplicationContext());
         softButtonsBarHeight = getSoftButtonsBarHeight(this);
         mainView = findViewById(R.id.main_view);
-        mainView.getViewTreeObserver().addOnGlobalLayoutListener(globalLayoutListener);
         initViews();
+        mButton.getViewTreeObserver().addOnGlobalLayoutListener(globalLayoutListener);
 
     }
 
     private void initViews() {
+        play = (ImageView) findViewById(R.id.play);
         mButton = (Button) findViewById(R.id.start);
         shapedImageView = (ShapedImageView) findViewById(R.id.image1);
         text = (TextView) findViewById(R.id.text);
@@ -80,8 +85,31 @@ public class MainActivity_new extends Activity {
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                ContentPop contentPop = new ContentPop(MainActivity_new.this);
+
                 //contentPop.showPopWindow(mainView);
+//                Intent intent = new Intent();
+//                intent.setClass(MainActivity_new.this,MainActivityTest.class);
+//                startActivity(intent);
+//                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+//                if (imm != null) {
+//                    imm.showSoftInput(mButton, 0);
+//                }
+
+//                //mButton.post(new Runnable() {
+//                    @Override
+//                    public void run() {
+//                        showKey(mEditText);
+//                    }
+//                });
+            }
+        });
+        play.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                if (imm != null) {
+                    imm.showSoftInput(play, 0);
+                }
             }
         });
 
@@ -96,7 +124,7 @@ public class MainActivity_new extends Activity {
             }
         });
         scrollView = findViewById(R.id.scroll_View);
-        play = (ImageView) findViewById(R.id.play);
+        play = (ImageView) findViewById(R.id.image1);
         show.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -147,6 +175,8 @@ public class MainActivity_new extends Activity {
             Rect r = new Rect();
             mainView.getWindowVisibleDisplayFrame(r);
             Log.e("Tag","onGlobalLayout_r: "+r.toString());
+
+            getAttachInfo(mainView);
             // 屏幕高度
             screenHeight = mainView.getRootView().getHeight();
             Log.e("Tag","screenHeight: "+screenHeight);
@@ -166,6 +196,7 @@ public class MainActivity_new extends Activity {
                 if (heightDiff <= statusBarHeight + softButtonsBarHeight) {
                     isShowKeyboard = false;
                     onHideKeyboard();
+                    //getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
                 }
             } else {
                 // 如果软键盘是收起的状态，并且heightDiff大于 状态栏 + 虚拟按键 高度，
@@ -173,6 +204,7 @@ public class MainActivity_new extends Activity {
                 if (heightDiff > statusBarHeight + softButtonsBarHeight) {
                     isShowKeyboard = true;
                     onShowKeyboard();
+                    //getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_NOTHING);
                 }
             }
         }
@@ -186,7 +218,7 @@ public class MainActivity_new extends Activity {
         Log.e("Tag","editScreenY: "+editScreenY+" keyboardHeight: "+keyboardHeight+"  soft: "+softButtonsBarHeight+"  screenHeight: "+screenHeight+" statusBar: "+statusBarHeight);
         Log.e("tag","deltaY: "+deltaY+"  height: "+play.getHeight()+"  scrollView: "+scrollView.getHeight());
         //mainView.scrollTo(mainView.getScrollX(),-deltaY);
-        scrollView.scrollTo(scrollView.getScrollX(),deltaY);
+        //scrollView.scrollTo(scrollView.getScrollX(),deltaY);
         mainView.requestLayout();
 
     }
@@ -195,7 +227,7 @@ public class MainActivity_new extends Activity {
         Log.e("tag","deltaY:   height: "+play.getHeight()+"  scrollView: "+scrollView.getHeight());
         // 在这里处理软键盘收回的回调
         //text.setText("onHideKeyboard");
-        scrollView.scrollTo(scrollView.getScrollX(),0);
+        //scrollView.scrollTo(scrollView.getScrollX(),0);
         //mainView.requestLayout();
     }
 
@@ -261,6 +293,32 @@ public class MainActivity_new extends Activity {
             window.setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS,
                     WindowManager.LayoutParams.FLAG_TRANSLUCENT_STATUS);
         }
+    }
+
+    private void getAttachInfo(View view) {
+        Class<?> viewClz = view.getClass();
+        Class<?> viewParent = viewClz.getSuperclass();
+        while(viewClz.getSuperclass()!= null) {
+            viewParent = viewClz;
+            viewClz = viewClz.getSuperclass();
+            android.util.Log.e("getAttachInfo","viewClz: "+viewClz.getSimpleName());
+        }
+        try {
+            Field attachField = viewParent.getDeclaredField("mAttachInfo");
+            if(attachField != null) {
+                attachField.setAccessible(true);
+                Object object = attachField.get(view);
+                android.util.Log.e("getAttachInfo","object: "+object);
+            }
+        }catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void showKey(EditText editText) {
+        InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
+        imm.showSoftInput(editText, InputMethodManager.RESULT_SHOWN);
+        imm.toggleSoftInput(InputMethodManager.SHOW_FORCED,InputMethodManager.HIDE_IMPLICIT_ONLY);
     }
 
 

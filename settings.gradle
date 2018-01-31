@@ -1,8 +1,2 @@
-<<<<<<< Updated upstream
-include ':androidEvent', ':lib', ':update', ':download', ':video', ':camera', ':sharedemo'
-=======
-include ':androidEvent', ':lib', ':testrecycler', ':testndk', ':testndk2', ':update', ':download', ':video', ':compound', ':pay'
->>>>>>> Stashed changes
-//include ':joylockscreen'
-//include ':activitystack'
-include ':opengl'
+include ':androidEvent', ':lib', ':download', ':video', ':camera', ':sharedemo', ':teststatus', ':libinject',"pay"
+include ':testrecycler',"recycler"

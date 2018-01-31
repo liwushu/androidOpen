@@ -40,12 +40,12 @@
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim/design_fab_in.xml"
     },
     {
-        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/anim/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim/design_bottom_sheet_slide_in.xml"
-    },
-    {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/anim/abc_slide_in_top.xml",
         "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/res/anim/abc_slide_in_top.xml"
+    },
+    {
+        "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/anim/design_bottom_sheet_slide_in.xml",
+        "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim/design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/anim/abc_slide_out_bottom.xml",

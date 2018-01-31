@@ -3,6 +3,10 @@ apply from: "config.gradle"
 buildscript {
     repositories {
         jcenter()
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
     }
     dependencies {
         classpath 'com.android.tools.build:gradle:2.2.2'
@@ -18,6 +22,10 @@ allprojects {
         jcenter()
         //maven { url 'https://jitpack.io' }
         maven {url 'http://localhost:8081/repository/slive_repo/'}
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
     }
 }
 

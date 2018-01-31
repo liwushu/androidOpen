@@ -29,7 +29,7 @@
         <com.clock.systemui.ShapedImageView
             android:id="@+id/image1"
             android:layout_width="150dp"
-            android:layout_height="150dp"
+            android:layout_height="450dp"
             android:layout_centerInParent="true"
             android:src="@drawable/live_img_feeddefault_n"
             test:shape_mode="circle" />
@@ -49,7 +49,9 @@
             android:layout_centerInParent="true"
             android:src="@drawable/an"
             test:round_radius="10dp"
-            test:shape_mode="round_rect" />
+            test:shape_mode="round_rect"
+            android:visibility="gone"
+            />
 
 
 
@@ -59,6 +61,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:background="@android:color/darker_gray"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
             />
 
         <Button
