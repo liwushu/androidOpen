@@ -55,7 +55,7 @@ ext {
 
 
     androidSupportVersion = [
-            supportVer: "25.0.0"
+            supportVer: "26.0.0"
     ]
 
     thirdLibVersion = [

@@ -1,2 +1,4 @@
 include ':androidEvent', ':lib', ':download', ':video', ':camera', ':sharedemo', ':teststatus', ':libinject',"pay"
-include ':testrecycler',"recycler"
+include ':testrecycler'
+include ':activitystack'
+//include ':recycler'
