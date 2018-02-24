@@ -2,7 +2,6 @@ package com.android.task;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.TextView;
 
@@ -13,7 +12,7 @@ import butterknife.OnClick;
  * Created by liwu.shu on 2017/1/6.
  */
 
-public class BaseActivity extends AppCompatActivity {
+public class BaseActivity extends RecycleActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,14 +24,14 @@ public class BaseActivity extends AppCompatActivity {
 
     protected void init(){
         TextView title = (TextView)findViewById(R.id.title);
-        title.setText("I am "+this.getClass().getSimpleName());
+        title.setText("I am "+this.getClass().getSimpleName()+"\n"+"taskId: "+getTaskId());
     }
 
 
     @OnClick({R.id.standard,R.id.singleTop,R.id.singleTask,R.id.singleInstance,
             R.id.new_task,R.id.clear_top,R.id.bring_front,R.id.clear_task,
             R.id.service})
-    public void onClick(View view){
+    public void onInjectClick(View view){
         int id = view.getId();
         switch (id){
             case R.id.standard: {
@@ -94,6 +93,7 @@ public class BaseActivity extends AppCompatActivity {
     }
 
     private void invokeStartActivity(Intent intent){
+        //startActivityForResult(intent,0);
         startActivity(intent);
     }
 }

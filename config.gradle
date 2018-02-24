@@ -137,7 +137,7 @@ ext {
             leakcanary_no_op   : 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.1',
 
             bugly              : 'com.tencent.bugly:crashreport:2.6.5',
-            butterknife        : 'com.jakewharton:butterknife:8.0.1',
+            butterknife        : 'com.jakewharton:butterknife:8.8.1',
     ]
 
 }

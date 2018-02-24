@@ -1,10 +1,10 @@
 [
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/anim-v21/design_bottom_sheet_slide_out.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim-v21/design_bottom_sheet_slide_out.xml"
+        "source": "/Users/shuliwu/.android/build-cache/e3858b801cfe705bdcf8897a6fe3402d6388c637/output/res/anim-v21/design_bottom_sheet_slide_out.xml"
     },
     {
         "merged": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/res/merged/baidu/debug/anim-v21/design_bottom_sheet_slide_in.xml",
-        "source": "/Users/shuliwu/project/androidOpen/testrecycler/build/intermediates/exploded-aar/com.android.support/design/23.2.0/res/anim-v21/design_bottom_sheet_slide_in.xml"
+        "source": "/Users/shuliwu/.android/build-cache/e3858b801cfe705bdcf8897a6fe3402d6388c637/output/res/anim-v21/design_bottom_sheet_slide_in.xml"
     }
 ]
