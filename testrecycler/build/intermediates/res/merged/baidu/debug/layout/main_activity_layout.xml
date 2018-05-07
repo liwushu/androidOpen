@@ -29,7 +29,7 @@
         <com.clock.systemui.ShapedImageView
             android:id="@+id/image1"
             android:layout_width="150dp"
-            android:layout_height="450dp"
+            android:layout_height="150dp"
             android:layout_centerInParent="true"
             android:src="@drawable/live_img_feeddefault_n"
             test:shape_mode="circle" />

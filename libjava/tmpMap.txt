@@ -1,0 +1,18 @@
+f0380000-f0500000 rw-p 00000000 00:00 0                                  [anon:libc_malloc]
+Name:           [anon:libc_malloc]
+Size:               1536 kB
+Rss:                1056 kB
+Pss:                 589 kB
+Shared_Clean:          0 kB
+Shared_Dirty:        524 kB
+Private_Clean:         0 kB
+Private_Dirty:       532 kB
+Referenced:          640 kB
+Anonymous:          1056 kB
+AnonHugePages:         0 kB
+Swap:                  0 kB
+SwapPss:               0 kB
+KernelPageSize:        4 kB
+MMUPageSize:           4 kB
+Locked:                0 kB
+VmFlags: rd wr mr mw me ac 

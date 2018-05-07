@@ -28,6 +28,8 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.clock.systemui.utils.ScreenUtils;
+
 import java.lang.reflect.Field;
 import java.util.Map;
 import java.util.zip.Inflater;
@@ -35,6 +37,7 @@ import java.util.zip.Inflater;
 
 public class MainActivity_new extends FragmentActivity {
 
+    private static final String TAG = "MainActivity_new";
     private Button mButton;
     ShapedImageView shapedImageView;
     private Button fullButton;
@@ -57,6 +60,7 @@ public class MainActivity_new extends FragmentActivity {
     Button trans;
     Button full;
     Button noFull;
+    int clickCount = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -68,7 +72,7 @@ public class MainActivity_new extends FragmentActivity {
         mainView = findViewById(R.id.main_view);
         initViews();
         mButton.getViewTreeObserver().addOnGlobalLayoutListener(globalLayoutListener);
-
+        ScreenUtils.hideNavigtionStep1(this,true);
     }
 
     private void initViews() {
@@ -85,22 +89,6 @@ public class MainActivity_new extends FragmentActivity {
         mButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
-                //contentPop.showPopWindow(mainView);
-//                Intent intent = new Intent();
-//                intent.setClass(MainActivity_new.this,MainActivityTest.class);
-//                startActivity(intent);
-//                InputMethodManager imm = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
-//                if (imm != null) {
-//                    imm.showSoftInput(mButton, 0);
-//                }
-
-//                //mButton.post(new Runnable() {
-//                    @Override
-//                    public void run() {
-//                        showKey(mEditText);
-//                    }
-//                });
             }
         });
         play.setOnClickListener(new View.OnClickListener() {
@@ -114,7 +102,7 @@ public class MainActivity_new extends FragmentActivity {
         });
 
         mEditText = (EditText) findViewById(R.id.edit);
-        Log.e("Tag","mButton: "+mButton+"  mEditText: "+mEditText);
+        Log.e(TAG,"mButton: "+mButton+"  mEditText: "+mEditText);
         mEditText.post(new Runnable() {
             @Override
             public void run() {
@@ -123,14 +111,21 @@ public class MainActivity_new extends FragmentActivity {
                 editScreenY = position[1];
             }
         });
+        mEditText.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                ScreenUtils.hideNavigtionStep1(MainActivity_new.this,false);
+                ScreenUtils.hideNavigtionStep2(MainActivity_new.this,false);
+            }
+        });
+
         scrollView = findViewById(R.id.scroll_View);
         play = (ImageView) findViewById(R.id.image1);
         show.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                mainView.setSystemUiVisibility(View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR);
-                getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_VISIBLE);
-                transparencyBar(MainActivity_new.this,Color.BLACK);
+                clickCount ++;
+                mButton.setTranslationX(clickCount*30);
             }
         });
 
@@ -174,14 +169,14 @@ public class MainActivity_new extends FragmentActivity {
 
             Rect r = new Rect();
             mainView.getWindowVisibleDisplayFrame(r);
-            Log.e("Tag","onGlobalLayout_r: "+r.toString());
+            //Log.e(TAG,"onGlobalLayout_r: "+r.toString());
 
             getAttachInfo(mainView);
             // 屏幕高度
             screenHeight = mainView.getRootView().getHeight();
-            Log.e("Tag","screenHeight: "+screenHeight);
+            //Log.e(TAG,"screenHeight: "+screenHeight);
             int heightDiff = screenHeight - (r.bottom - r.top);
-            Log.e("tag","heightDiff: "+heightDiff);
+            //Log.e(TAG,"heightDiff: "+heightDiff);
             // 在不显示软键盘时，heightDiff等于 状态栏 + 虚拟按键 的高度
             // 在显示软键盘时，heightDiff会变大，等于 软键盘 + 状态栏 + 虚拟按键 的高度。
             // 所以heightDiff大于 状态栏 + 虚拟按键 高度时表示软键盘出现了，
@@ -214,17 +209,21 @@ public class MainActivity_new extends FragmentActivity {
     private void onShowKeyboard() {
         // 在这里处理软键盘弹出的回调
         //text.setText("onShowKeyboard : keyboardHeight = " + keyboardHeight);
-        int deltaY = editScreenY+mEditText.getHeight()+keyboardHeight+softButtonsBarHeight-screenHeight+statusBarHeight;
-        Log.e("Tag","editScreenY: "+editScreenY+" keyboardHeight: "+keyboardHeight+"  soft: "+softButtonsBarHeight+"  screenHeight: "+screenHeight+" statusBar: "+statusBarHeight);
-        Log.e("tag","deltaY: "+deltaY+"  height: "+play.getHeight()+"  scrollView: "+scrollView.getHeight());
+        Log.e(TAG,"onShowKeyboard");
+//        int deltaY = editScreenY+mEditText.getHeight()+keyboardHeight+softButtonsBarHeight-screenHeight+statusBarHeight;
+//        Log.e("Tag","editScreenY: "+editScreenY+" keyboardHeight: "+keyboardHeight+"  soft: "+softButtonsBarHeight+"  screenHeight: "+screenHeight+" statusBar: "+statusBarHeight);
+//        Log.e("tag","deltaY: "+deltaY+"  height: "+play.getHeight()+"  scrollView: "+scrollView.getHeight());
         //mainView.scrollTo(mainView.getScrollX(),-deltaY);
         //scrollView.scrollTo(scrollView.getScrollX(),deltaY);
-        mainView.requestLayout();
+//        ScreenUtils.hideNavigtionStep1(this,false);
+//        ScreenUtils.hideNavigtionStep2(this,false);
+        //mainView.requestLayout();
 
     }
 
     private void onHideKeyboard() {
-        Log.e("tag","deltaY:   height: "+play.getHeight()+"  scrollView: "+scrollView.getHeight());
+        Log.e(TAG,"onHideKeyboard");
+//        Log.e("tag","deltaY:   height: "+play.getHeight()+"  scrollView: "+scrollView.getHeight());
         // 在这里处理软键盘收回的回调
         //text.setText("onHideKeyboard");
         //scrollView.scrollTo(scrollView.getScrollX(),0);
@@ -301,14 +300,12 @@ public class MainActivity_new extends FragmentActivity {
         while(viewClz.getSuperclass()!= null) {
             viewParent = viewClz;
             viewClz = viewClz.getSuperclass();
-            android.util.Log.e("getAttachInfo","viewClz: "+viewClz.getSimpleName());
         }
         try {
             Field attachField = viewParent.getDeclaredField("mAttachInfo");
             if(attachField != null) {
                 attachField.setAccessible(true);
                 Object object = attachField.get(view);
-                android.util.Log.e("getAttachInfo","object: "+object);
             }
         }catch (Exception e) {
             e.printStackTrace();
@@ -319,6 +316,14 @@ public class MainActivity_new extends FragmentActivity {
         InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
         imm.showSoftInput(editText, InputMethodManager.RESULT_SHOWN);
         imm.toggleSoftInput(InputMethodManager.SHOW_FORCED,InputMethodManager.HIDE_IMPLICIT_ONLY);
+    }
+
+    @Override
+    public void onWindowFocusChanged(boolean isFocus) {
+        super.onWindowFocusChanged(isFocus);
+        Log.e(TAG,"isFocus: "+isFocus);
+        ScreenUtils.hideNavigtionStep2(this,true);
+
     }
 
 

@@ -5,6 +5,7 @@ import android.graphics.ImageFormat;
 import android.hardware.Camera;
 import android.view.SurfaceHolder;
 
+import com.flying.camera.utils.LaunchUtil;
 import com.flying.camera.utils.LogUtils;
 
 /**
@@ -14,13 +15,14 @@ import com.flying.camera.utils.LogUtils;
 public class CameraHolder implements SurfaceHolder.Callback {
 
     Camera mCamera;
+    boolean isFirstFrame = true;
 
     public CameraHolder(){
         SensorController sensorController = SensorController.getInstance();
         sensorController.setCameraFocusListener(new SensorController.CameraFocusListener() {
             @Override
             public void onFocus() {
-                initCameraParam();
+//                initCameraParam();
             }
         });
     }
@@ -31,7 +33,7 @@ public class CameraHolder implements SurfaceHolder.Callback {
             mCamera = CameraManager.getCamera();
             mCamera.setPreviewDisplay(surfaceHolder); //camera关联到SurfaceView
             mCamera.setDisplayOrientation(90); //旋转90度
-            initCameraParam();
+            //initCameraParam();
 
         } catch (Exception e) {
             LogUtils.e(e.getMessage());
@@ -40,15 +42,16 @@ public class CameraHolder implements SurfaceHolder.Callback {
 
     @Override
     public void surfaceChanged(SurfaceHolder surfaceHolder, int i, int i1, int i2) {
-//自动聚焦
+        //自动聚焦
         mCamera.autoFocus(new Camera.AutoFocusCallback() {
             public void onAutoFocus(boolean success, Camera camera) {
                 if (success) {
                     LogUtils.e("auto focus success");
-                    initCameraParam();
+                    openCameraParam();
                 }
-                else
+                else {
                     LogUtils.e("auto focus failed");
+                }
 
             }
         });
@@ -61,12 +64,14 @@ public class CameraHolder implements SurfaceHolder.Callback {
     }
 
 
-    private void initCameraParam() {
-        if (mCamera == null)
+    public void openCameraParam() {
+        if (mCamera == null) {
             return;
+        }
+        LaunchUtil.logTime("openCameraParam");
         Camera.Parameters params = mCamera.getParameters();
         params.setPictureFormat(ImageFormat.JPEG);
-        params.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
+        //params.setFlashMode(Camera.Parameters.FLASH_MODE_TORCH);
         params.setFocusMode(Camera.Parameters.FOCUS_MODE_AUTO);
         //params.setFocusMode(Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE);
 
@@ -76,7 +81,10 @@ public class CameraHolder implements SurfaceHolder.Callback {
         mCamera.setPreviewCallback(new Camera.PreviewCallback() {
             @Override
             public void onPreviewFrame(byte[] bytes, Camera camera) {
-
+                if(isFirstFrame) {
+                    LaunchUtil.logTime("onPreviewFrame");
+                    isFirstFrame = false;
+                }
             }
         });
     }

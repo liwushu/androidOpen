@@ -11,9 +11,18 @@ android {
         targetSdkVersion Integer.parseInt(project.TARGET_SDK_VERSION)
         versionCode 1
         versionName "1.0"
-
+        ndk {
+            abiFilters "armeabi-v7a"
+        }
     }
 
+//
+//    sourceSets {
+//        main{
+//            jniLibs.srcDirs = ['libs']
+//        }
+//
+//    }
 
     buildTypes {
         release {
@@ -21,6 +30,8 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
+
+
 }
 
 dependencies {

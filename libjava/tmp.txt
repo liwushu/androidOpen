@@ -1,0 +1,21 @@
+Allocations: 16
+Size: 111563
+TotalSize: 1785008
+BeginStacktrace:
+	b3d05180	/system/lib/libutils.so --- b3d05180 ---
+	b3d05bc6	/system/lib/libutils.so --- b3d05bc6 ---
+	b366a00e	/system/lib/libandroid_runtime.so --- b366a00e ---
+	b366a05a	/system/lib/libandroid_runtime.so --- b366a05a ---
+	b193fe98	/system/lib/libart.so --- b193fe98 ---
+	b193fe98	/system/lib/libart.so --- b193fe98 ---
+	b193fe98	/system/lib/libart.so --- b193fe98 ---
+	b193fe98	/system/lib/libart.so --- b193fe98 ---
+	b193fe98	/system/lib/libart.so --- b193fe98 ---
+	b193fe98	/system/lib/libart.so --- b193fe98 ---
+	b193fe98	/system/lib/libart.so --- b193fe98 ---
+	b193fe98	/system/lib/libart.so --- b193fe98 ---
+	b193fe98	/system/lib/libart.so --- b193fe98 ---
+	b193fe98	/system/lib/libart.so --- b193fe98 ---
+	b193fe98	/system/lib/libart.so --- b193fe98 ---
+	b193fe98	/system/lib/libart.so --- b193fe98 ---
+EndStacktrace

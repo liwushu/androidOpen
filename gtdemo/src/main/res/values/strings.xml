@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">GTDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Exit</string>
+	
+    <string name="connect">Connect GT</string>
+    <string name="intodemo">Into Demo</string>
+    <string name="disconnect">Disconnect GT &amp; Exit Demo</string>
+   
+    <string name="showimg">下载图片</string>
+</resources>

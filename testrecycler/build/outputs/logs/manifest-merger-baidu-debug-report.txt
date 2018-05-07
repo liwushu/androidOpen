@@ -67,13 +67,13 @@ ADDED from /Users/shuliwu/project/androidOpen/testrecycler/src/main/AndroidManif
 		ADDED from /Users/shuliwu/project/androidOpen/testrecycler/src/main/AndroidManifest.xml:22:22-77
 application
 ADDED from /Users/shuliwu/project/androidOpen/testrecycler/src/main/AndroidManifest.xml:24:5-36:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shuliwu/.android/build-cache/bf5663aaeca76464e8367f2406f94103a476ba2f/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:23.2.0] /Users/shuliwu/.android/build-cache/e3858b801cfe705bdcf8897a6fe3402d6388c637/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/shuliwu/.android/build-cache/274e1b7051b1b0a0cf6883599fc3b2559a00d1d3/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/shuliwu/.android/build-cache/f586ba251fe2403eb9427465b27d8b875ab10c2f/output/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/shuliwu/.android/build-cache/dfd62e4a07ff653178f41fb6d048c8086df6f47c/output/AndroidManifest.xml:7:5-20
-MERGED from [com.android.support:support-v4:23.2.0] /Users/shuliwu/.android/build-cache/eff847df2807d2a168106838f7c3286bd3b4254a/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:cardview-v7:23.1.1] /Users/shuliwu/.android/build-cache/bf64deea96f4fc251401b6ceb2fd70bc1f1f2482/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shuliwu/.android/build-cache/a6558676d9a714d61f3b08feb46ae03ebd7bdfb9/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:23.2.0] /Users/shuliwu/.android/build-cache/1161a67352081128172c61bf02ab46e5bb6d0d37/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/shuliwu/.android/build-cache/f08065f2033a65c3b89fa2ad4c34f7abf4db61c8/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/shuliwu/.android/build-cache/9d4c929ba27b1fcc4c9eb8e1f3f392d648fc0a62/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/shuliwu/.android/build-cache/c6d8ffb1737adaac9db8d405a64152b815fc5b89/output/AndroidManifest.xml:7:5-20
+MERGED from [com.android.support:support-v4:23.2.0] /Users/shuliwu/.android/build-cache/57b40a17fc8637ab2f06ca0eff8692ffc0f5af82/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:cardview-v7:23.1.1] /Users/shuliwu/.android/build-cache/77050edbd69aaa2b67865674ce5966789e6b0cb4/output/AndroidManifest.xml:22:5-20
 	android:allowBackup
 		ADDED from /Users/shuliwu/project/androidOpen/testrecycler/src/main/AndroidManifest.xml:24:18-44
 activity#com.clock.systemui.MainActivity_new
@@ -98,17 +98,17 @@ ADDED from /Users/shuliwu/project/androidOpen/testrecycler/src/main/AndroidManif
 		ADDED from /Users/shuliwu/project/androidOpen/testrecycler/src/main/AndroidManifest.xml:35:19-51
 uses-sdk
 INJECTED from /Users/shuliwu/project/androidOpen/testrecycler/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shuliwu/.android/build-cache/bf5663aaeca76464e8367f2406f94103a476ba2f/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:23.2.0] /Users/shuliwu/.android/build-cache/e3858b801cfe705bdcf8897a6fe3402d6388c637/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:23.2.0] /Users/shuliwu/.android/build-cache/11fceb1ddad07911c52dd9c71eed341616b9f449/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/shuliwu/.android/build-cache/274e1b7051b1b0a0cf6883599fc3b2559a00d1d3/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/shuliwu/.android/build-cache/f586ba251fe2403eb9427465b27d8b875ab10c2f/output/AndroidManifest.xml:5:5-44
-MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/shuliwu/.android/build-cache/dfd62e4a07ff653178f41fb6d048c8086df6f47c/output/AndroidManifest.xml:5:5-43
-MERGED from [com.android.support:support-v4:23.2.0] /Users/shuliwu/.android/build-cache/eff847df2807d2a168106838f7c3286bd3b4254a/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:cardview-v7:23.1.1] /Users/shuliwu/.android/build-cache/bf64deea96f4fc251401b6ceb2fd70bc1f1f2482/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/shuliwu/.android/build-cache/a6558676d9a714d61f3b08feb46ae03ebd7bdfb9/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:23.2.0] /Users/shuliwu/.android/build-cache/1161a67352081128172c61bf02ab46e5bb6d0d37/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:23.2.0] /Users/shuliwu/.android/build-cache/6e43654686d7d6666cedf34c903e19e1c8d59811/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.2.0] /Users/shuliwu/.android/build-cache/f08065f2033a65c3b89fa2ad4c34f7abf4db61c8/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:23.2.0] /Users/shuliwu/.android/build-cache/9d4c929ba27b1fcc4c9eb8e1f3f392d648fc0a62/output/AndroidManifest.xml:5:5-44
+MERGED from [com.android.support:support-vector-drawable:23.2.0] /Users/shuliwu/.android/build-cache/c6d8ffb1737adaac9db8d405a64152b815fc5b89/output/AndroidManifest.xml:5:5-43
+MERGED from [com.android.support:support-v4:23.2.0] /Users/shuliwu/.android/build-cache/57b40a17fc8637ab2f06ca0eff8692ffc0f5af82/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:cardview-v7:23.1.1] /Users/shuliwu/.android/build-cache/77050edbd69aaa2b67865674ce5966789e6b0cb4/output/AndroidManifest.xml:20:5-43
 MERGED from [androidOpen:libinject:unspecified] /Users/shuliwu/project/androidOpen/libinject/build/intermediates/bundles/default/AndroidManifest.xml:7:5-9:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:23.2.0] /Users/shuliwu/.android/build-cache/274e1b7051b1b0a0cf6883599fc3b2559a00d1d3/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:23.2.0] /Users/shuliwu/.android/build-cache/f08065f2033a65c3b89fa2ad4c34f7abf4db61c8/output/AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from /Users/shuliwu/project/androidOpen/testrecycler/src/main/AndroidManifest.xml
 		INJECTED from /Users/shuliwu/project/androidOpen/testrecycler/src/main/AndroidManifest.xml

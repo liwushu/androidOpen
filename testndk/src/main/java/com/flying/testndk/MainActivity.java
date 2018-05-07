@@ -3,6 +3,7 @@ package com.flying.testndk;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -10,7 +11,7 @@ import android.widget.Toast;
 public class MainActivity extends Activity implements View.OnClickListener{
 
     private TextView tvTest;
-    private TextView tvCall;
+    private Button tvCall;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,7 +23,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
 
     private void initViews(){
         tvTest = (TextView)findViewById(R.id.test);
-        tvCall = (TextView)findViewById(R.id.call);
+        tvCall = (Button)findViewById(R.id.call);
     }
 
     private void bindListener(){

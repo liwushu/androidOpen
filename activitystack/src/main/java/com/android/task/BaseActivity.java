@@ -16,10 +16,11 @@ public class BaseActivity extends RecycleActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        MyApplication.logTime(this.getClass().getSimpleName());
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        ButterKnife.bind(this);
-        init();
+        //setContentView(R.layout.activity_main);
+        //ButterKnife.bind(this);
+        //init();
     }
 
     protected void init(){
