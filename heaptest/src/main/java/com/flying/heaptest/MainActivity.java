@@ -1,4 +1,4 @@
-package com.flying.heaptest;
+package com.example.heaptest;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -13,9 +13,9 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.flying.heaptest.db.TestDb1;
-import com.flying.heaptest.utils.InitUtils;
-import com.flying.heaptest.utils.XLogImpl;
+import com.example.heaptest.db.TestDb1;
+import com.example.heaptest.utils.InitUtils;
+import com.example.heaptest.utils.XLogImpl;
 
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;

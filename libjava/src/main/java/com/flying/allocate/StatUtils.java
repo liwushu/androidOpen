@@ -1,4 +1,4 @@
-package com.flying.allocate;
+package com.example.allocate;
 
 public class StatUtils {
     public static final String HEAD_TAG = "/";

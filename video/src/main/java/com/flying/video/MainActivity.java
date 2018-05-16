@@ -1,4 +1,4 @@
-package com.flying.video;
+package com.example.video;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

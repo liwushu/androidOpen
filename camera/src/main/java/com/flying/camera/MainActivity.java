@@ -1,14 +1,14 @@
-package com.flying.camera;
+package com.example.camera;
 
 import android.os.Handler;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.SurfaceView;
 
-import com.flying.camera.holder.CameraHolder;
-import com.flying.camera.holder.CameraManager;
-import com.flying.camera.utils.LaunchUtil;
-import com.flying.camera.utils.LogUtils;
+import com.example.camera.holder.CameraHolder;
+import com.example.camera.holder.CameraManager;
+import com.example.camera.utils.LaunchUtil;
+import com.example.camera.utils.LogUtils;
 
 public class MainActivity extends AppCompatActivity {
 

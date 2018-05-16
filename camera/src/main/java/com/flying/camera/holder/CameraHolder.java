@@ -1,12 +1,12 @@
-package com.flying.camera.holder;
+package com.example.camera.holder;
 
 
 import android.graphics.ImageFormat;
 import android.hardware.Camera;
 import android.view.SurfaceHolder;
 
-import com.flying.camera.utils.LaunchUtil;
-import com.flying.camera.utils.LogUtils;
+import com.example.camera.utils.LaunchUtil;
+import com.example.camera.utils.LogUtils;
 
 /**
  * Created by liwushu on 2017/8/13.

@@ -1,4 +1,4 @@
-package com.flying.camera;
+package com.example.camera;
 
 import android.app.Application;
 import android.content.Context;

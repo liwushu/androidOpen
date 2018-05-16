@@ -1,9 +1,9 @@
-package com.flying.camera.holder;
+package com.example.camera.holder;
 
 
 import android.hardware.Camera;
 
-import com.flying.camera.utils.LogUtils;
+import com.example.camera.utils.LogUtils;
 
 import static android.hardware.Camera.open;
 

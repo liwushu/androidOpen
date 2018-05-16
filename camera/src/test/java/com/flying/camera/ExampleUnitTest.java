@@ -1,4 +1,4 @@
-package com.flying.camera;
+package com.example.camera;
 
 import org.junit.Test;
 

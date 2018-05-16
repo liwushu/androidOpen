@@ -1,4 +1,4 @@
-package com.flying.gtdemo;
+package com.example.gtdemo;
 
 public interface UserStrings {
 	// 出入参

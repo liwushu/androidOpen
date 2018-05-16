@@ -1,4 +1,4 @@
-package com.flying.video;
+package com.example.video;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

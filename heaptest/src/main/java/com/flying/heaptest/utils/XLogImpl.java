@@ -1,4 +1,4 @@
-package com.flying.heaptest.utils;
+package com.example.heaptest.utils;
 
 
 import com.tencent.mars.xlog.Log;

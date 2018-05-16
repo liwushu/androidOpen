@@ -1,4 +1,4 @@
-package com.flying.hook;
+package com.example.hook;
 
 import org.junit.Test;
 

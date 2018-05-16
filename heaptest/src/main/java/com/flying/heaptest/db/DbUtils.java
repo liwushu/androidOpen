@@ -1,4 +1,4 @@
-package com.flying.heaptest.db;
+package com.example.heaptest.db;
 
 public class DbUtils {
     public static final String DB_NAME1 = "test1";

@@ -1,4 +1,4 @@
-package com.flying.video;
+package com.example.video;
 
 import org.junit.Test;
 

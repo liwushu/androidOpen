@@ -1,4 +1,4 @@
-package com.flying.testndk.bean;
+package com.example.testndk.bean;
 
 /**
  * Created by liwushu on 2017/6/9.

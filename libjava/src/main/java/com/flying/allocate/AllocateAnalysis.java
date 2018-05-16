@@ -1,4 +1,4 @@
-package com.flying.allocate;
+package com.example.allocate;
 
 import java.io.File;
 import java.io.FileNotFoundException;

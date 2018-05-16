@@ -1,4 +1,4 @@
-package com.flying.camera;
+package com.example.camera;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

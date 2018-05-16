@@ -1,4 +1,4 @@
-package com.flying.camera.utils;
+package com.example.camera.utils;
 
 import android.util.Log;
 

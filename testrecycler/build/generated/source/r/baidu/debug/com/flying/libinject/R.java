@@ -4,7 +4,7 @@
  * gradle plugin from the resource data it found. It
  * should not be modified by hand.
  */
-package com.flying.libinject;
+package com.example.libinject;
 
 public final class R {
 }

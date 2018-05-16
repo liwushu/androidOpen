@@ -1,4 +1,4 @@
-package com.flying.heaptest;
+package com.example.heaptest;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

@@ -1,4 +1,4 @@
-package com.flying.libinject;
+package com.example.libinject;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

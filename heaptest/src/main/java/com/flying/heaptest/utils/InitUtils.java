@@ -1,10 +1,10 @@
-package com.flying.heaptest.utils;
+package com.example.heaptest.utils;
 
 import android.content.Context;
 import android.os.Build;
 import android.util.Log;
 
-import com.flying.heaptest.BuildConfig;
+import com.example.heaptest.BuildConfig;
 import com.tencent.bugly.Bugly;
 import com.tencent.bugly.crashreport.CrashReport;
 

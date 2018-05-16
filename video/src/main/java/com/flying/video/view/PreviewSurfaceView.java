@@ -1,4 +1,4 @@
-package com.flying.video.view;
+package com.example.video.view;
 
 import android.content.Context;
 import android.util.AttributeSet;

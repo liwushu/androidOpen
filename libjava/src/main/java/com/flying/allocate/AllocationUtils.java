@@ -1,4 +1,4 @@
-package com.flying.allocate;
+package com.example.allocate;
 
 public class AllocationUtils {
     public static final String SIZE_TAG = "Size";

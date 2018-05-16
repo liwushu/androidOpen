@@ -1,4 +1,4 @@
-package com.flying.status;
+package com.example.status;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

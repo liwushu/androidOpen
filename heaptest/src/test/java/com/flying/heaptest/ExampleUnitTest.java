@@ -1,4 +1,4 @@
-package com.flying.heaptest;
+package com.example.heaptest;
 
 import org.junit.Test;
 

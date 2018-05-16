@@ -1,4 +1,4 @@
-package com.flying.heaptest;
+package com.example.heaptest;
 
 import android.app.Service;
 import android.content.Intent;

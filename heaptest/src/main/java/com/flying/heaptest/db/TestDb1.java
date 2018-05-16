@@ -1,4 +1,4 @@
-package com.flying.heaptest.db;
+package com.example.heaptest.db;
 
 import android.content.ContentValues;
 import android.content.Context;

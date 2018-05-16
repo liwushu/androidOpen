@@ -1,4 +1,4 @@
-package com.flying.libinject;
+package com.example.libinject;
 
 import org.junit.Test;
 

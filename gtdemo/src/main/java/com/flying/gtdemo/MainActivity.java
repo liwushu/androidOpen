@@ -1,4 +1,4 @@
-package com.flying.gtdemo;
+package com.example.gtdemo;
 
 import android.app.Activity;
 import android.content.Intent;

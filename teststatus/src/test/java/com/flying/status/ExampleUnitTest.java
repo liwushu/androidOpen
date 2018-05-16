@@ -1,4 +1,4 @@
-package com.flying.status;
+package com.example.status;
 
 import org.junit.Test;
 

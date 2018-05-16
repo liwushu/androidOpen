@@ -1,4 +1,4 @@
-package com.flying.allocate;
+package com.example.allocate;
 
 public class AllocationInfo {
     public long totalSize;

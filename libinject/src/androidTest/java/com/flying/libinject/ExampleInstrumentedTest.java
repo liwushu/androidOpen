@@ -1,4 +1,4 @@
-package com.flying.libinject;
+package com.example.libinject;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

@@ -1,4 +1,4 @@
-package com.flying.allocate;
+package com.example.allocate;
 
 public class MapInfo {
     String soName;

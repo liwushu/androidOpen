@@ -1,4 +1,4 @@
-package com.flying.libinject;
+package com.example.libinject;
 
 import android.app.Activity;
 import android.view.View;
